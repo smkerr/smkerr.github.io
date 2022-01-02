@@ -1,7 +1,7 @@
 ---
 title: Steven M. Kerr
 layout: default
-description: "data science for good"
+description: "Data Scientist In-Training"
 ---
 
 # About
