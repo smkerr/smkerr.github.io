@@ -4,24 +4,14 @@
 #
 # Edit cayman-blog's home layout in _layouts instead if you wanna make some changes
 # See: https://jekyllrb.com/docs/themes/#overriding-theme-defaults
-# 
+#
 layout: home
-title: Steven M. Kerr
-description: "Data Scientist In-Training"
 ---
 
-# About 🎓
+Cayman Blog Theme is a clean, responsive blogging theme for Jekyll. It is inspired by the Cayman Theme for Github Pages, which can be greatly used for single projects but not as blogging platform.
 
-This is a personal website. I'll talk about myself here.
+This theme has instead all you need to start today blogging with Jekyll, and no effort: pages, posts, few social buttons. Try loading this on mobile too.
 
-## My interests 💻📊 
-* * *
+Have a look at the Github page for more information.
 
-* public policy
-* data science
-
-## My projects 👷‍♂️
-* * *
-
-* [UK COVID dashboard disaggregated by age group](link goes here)
-* [Validating COVID self tests using image recognition](link goes here)
+You find this descriptive text in the `index.md` file, so you can change it, or remove it completely, according to your needs.
