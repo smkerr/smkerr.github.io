@@ -5,7 +5,7 @@ description: "Data Scientist In-Training"
 use_code: false
 ---
 
-# About 🎓:octocat:
+# About 🎓
 
 This is a personal website. I'll talk about myself here.
 
