@@ -5,17 +5,17 @@ description: "Data Scientist In-Training"
 use_code: false
 ---
 
-# About
+# About 🎓:octocat:
 
 This is a personal website. I'll talk about myself here.
 
-## My interests
+## My interests 💻📊 
 * * *
 
 * public policy
 * data science
 
-## My projects
+## My projects 👷‍♂️
 * * *
 
 * [UK COVID dashboard disaggregated by age group](link goes here)
