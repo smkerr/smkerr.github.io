@@ -1,7 +1,7 @@
 ---
-title: home
+title: Steven M. Kerr
 layout: default
-description: "welcome visitors to the site"
+description: "data science for good"
 ---
 
 # About
