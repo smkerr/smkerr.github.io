@@ -1,10 +1,4 @@
 ---
-<<<<<<< Updated upstream
-title: Steven M. Kerr
-layout: default
-description: "Data Scientist In-Training"
-use_code: false
-=======
 #
 # Here you can change the text shown in the Home page before the Latest Posts section.
 #
@@ -14,7 +8,6 @@ use_code: false
 layout: home
 title: Steven M. Kerr
 description: "Data Scientist In-Training"
->>>>>>> Stashed changes
 ---
 
 # About 🎓
