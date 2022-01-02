@@ -1,12 +1,12 @@
-title: Cayman Blog Theme
-description: Cayman Blog Theme is a clean, responsive blogging theme for Jekyll and Gitlab/GitHub Pages.
+title: Steven M. Kerr
+description: Data Scientist In-Training
 show_downloads: true
 
-baseurl: "/cayman-blog" # change this to the subpath of your site, e.g. /blog. Leave it empty if you don't need it.
-url: "https://lorepirri.github.io" # change this to the base hostname & protocol for your site
+baseurl: # change this to the subpath of your site, e.g. /blog. Leave it empty if you don't need it.
+url: "https://smkerr.github.io" # base hostname & protocol for the site
 
 
-google_analytics:
+google_analytics: 298049889
 
 # cayman-blog date format
 # refer to http://shopify.github.io/liquid/filters/date/ if you want to customize this
@@ -16,10 +16,11 @@ cayman-blog:
 theme: # leave it empty
 
 # social
-author: lorepirri
+author: stevekerr
 image: /thumbnail-jumbo.png
-twitter:
-  username: lorepirri
+#twitter:
+  #username: st3v3k3rr
+# consider adding social media usernames
 
 plugins:
   - jekyll-target-blank
@@ -27,4 +28,4 @@ plugins:
 target-blank:
     rel: nofollow
 
-header_page_refs: ['now', 'about', 'contact']
+header_page_refs: ['now', 'about', 'contact'] # +cv, +portfolio
