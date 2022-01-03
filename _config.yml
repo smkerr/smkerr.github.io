@@ -1,6 +1,6 @@
 title: Steven M. Kerr
 description: Data Scientist In-Training
-show_downloads: true
+show_downloads: false
 
 baseurl: # change this to the subpath of your site, e.g. /blog. Leave it empty if you don't need it.
 url: "https://smkerr.github.io" # base hostname & protocol for the site
