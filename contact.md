@@ -1,11 +1,13 @@
 ---
 layout: page
 title: Contact
-tagline: Create a contact form and you are good to go
+tagline: Let's get in touch
 ref: contact
 order: 1
 ---
 
-Jekyll is a great tool to create static sites but with static site, there's no backend to send your data to: that is why you need a third part service.
+* email: [steven.miles.k@gmail.com](steven.miles.k@gmail.com)
+* GitHub: [smkerr](https://github.com/smkerr)
+* LinkedIn: [Steven Kerr](https://www.linkedin.com/in/stevenmileskerr/)
 
 [Go to the Home Page]({{ '/' | absolute_url }})
