@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Contact
-tagline: Let's get in touch! ☕
+tagline: Let's get in touch! ☕☕☕
 ref: contact
 order: 1
 ---
@@ -13,5 +13,8 @@ order: 1
 
 
 * GitHub: [smkerr](https://github.com/smkerr)
+
+
+
 
 [Go to the Home Page]({{ '/' | absolute_url }})
