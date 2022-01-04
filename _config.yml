@@ -18,9 +18,10 @@ theme: # leave it empty
 # social
 author: stevekerr
 image: /thumbnail-jumbo.png
-#twitter:
-  #username: st3v3k3rr
-# consider adding social media usernames
+linkedin:
+  username: stevenmileskerr
+twitter:
+  username: st3v3k3rr
 
 plugins:
   - jekyll-target-blank
