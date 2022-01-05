@@ -16,8 +16,8 @@ cayman-blog:
 theme: # leave it empty
 
 # social
-author: stevekerr
-image: /thumbnail-jumbo.png
+author: smkerr
+image:
 linkedin:
   username: stevenmileskerr
 twitter:
@@ -29,4 +29,4 @@ plugins:
 target-blank:
     rel: nofollow
 
-header_page_refs: ['now', 'about', 'contact'] # +cv, +portfolio
+header_page_refs: ['now', 'about', 'projects', 'cv', 'contact']

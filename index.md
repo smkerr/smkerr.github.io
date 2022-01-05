@@ -14,7 +14,7 @@ layout: home
 
 This is a personal website. I'll talk about myself here.
 
-## My interests 💻📊 
+## My interests 💻📊
 * * *
 
 * public policy
@@ -23,5 +23,5 @@ This is a personal website. I'll talk about myself here.
 ## My projects 👷‍♂️
 * * *
 
-* [UK COVID dashboard disaggregated by age group](link goes here)
-* [Validating COVID self tests using image recognition](link goes here)
+* [UK COVID dashboard disaggregated by age group]()
+* [Validating COVID self tests using image recognition]()

@@ -17,8 +17,10 @@ order: 4
 
 # **SKILLS**
 
-# **RECOGNITION** 
+# **RECOGNITION**
 
-# **COMMUNITY INVOLVEMENT** 
+# **COMMUNITY INVOLVEMENT**
 
 [Download CV here]()
+
+[Go to the Home Page]({{ '/' | absolute_url }})
