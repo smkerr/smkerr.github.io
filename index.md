@@ -25,3 +25,8 @@ This is a personal website. I'll talk about myself here.
 
 * [UK COVID dashboard disaggregated by age group]()
 * [Validating COVID self tests using image recognition]()
+
+## Contact me ☕
+* Email: [steven.miles.k@gmail.com](steven.miles.k@gmail.com)
+* LinkedIn: [Steven Kerr](https://www.linkedin.com/in/stevenmileskerr/)
+* GitHub: [smkerr](https://github.com/smkerr)

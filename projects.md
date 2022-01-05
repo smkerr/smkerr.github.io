@@ -4,7 +4,7 @@ title: Projects
 tagline: What I've worked on
 permalink: /projects.html
 ref: projects
-order: 3
+order: 2
 ---
 
 # UK COVID dashboard disaggregated by age group | [GitHub]()
