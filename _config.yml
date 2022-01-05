@@ -18,6 +18,8 @@ theme: # leave it empty
 # social
 author: smkerr
 image:
+email:
+  address: steven.miles.k@gmail.com
 linkedin:
   username: stevenmileskerr
 twitter:
