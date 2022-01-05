@@ -1,6 +1,9 @@
 ---
-title: CV
 layout: page
+title: CV
+permalink: /cv.html
+ref: cv
+order: 4
 ---
 
 # **EDUCATION** 🎓
