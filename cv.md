@@ -1,6 +1,6 @@
 ---
 layout: page
-title: CV
+title: Curriculum Vitae
 permalink: /cv.html
 ref: cv
 order: 3
