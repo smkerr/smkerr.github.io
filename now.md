@@ -13,7 +13,7 @@ Aside from pre-coursework, I have a few projects I'm working on. First, I'm anal
 
 Beyond coding, I’m taking advantage of a long winter vacation to improve my elementary level Spanish. Since we're spending the month of January in my boyfriend's hometown of Seville, Spain, it seems like as good a time as any to make some serious progress.
 
-Hasta Luego 👋,
+Hasta Luego 👋,/
 Steve
 
 [Go to the Home Page]({{ '/' | absolute_url }})

@@ -10,23 +10,21 @@ description: "Data Scientist In-Training"
 layout: home
 ---
 
-# About
+# About :wave:
+I'm Steve, a self-proclaimed data enthusiast! I'm pursuing my [MSc. in Data Science for Public Policy](https://www.hertie-school.org/en/mds) at the [Hertie School](https://www.hertie-school.org/en/) in Berlin. I’ve been diving deeper into Python & R programming languages with the aim of improving public services with data science.
 
-I’m Steve, a self-identified data enthusiast pursuing a MSc. in Data Science for Public Policy at the [Hertie School](https://www.hertie-school.org/en/) in Berlin. I aim to use code to improve public welfare. As a first year master's student, I’ve been diving deeper into Python & R programming languages with a sprinkle of Bash, HTML, and XPath to contribute to the greater good. This website serves as my attempt to showcase my portfolio as I continue to develop my programming skills.
-
-## My interests
+## My interests :mag:
 I've got a broad range of policy interests aside from the COVID-19 pandemic including:
 * demographic analysis
 * housing policy
 * tax policy
-* health policy
+* government spending
 
-## My projects
+## My projects :construction_worker:
+* <a href="/projects.html/#uk-covid-dashboard">UK COVID Dashboard Disaggregated by Age Group</a>
+* <a href="/projects.html/#validating-covid-self-tests">Validating COVID Self Tests Using Image Recognition</a>
 
-* <a href="#uk-covid-dashboard">UK COVID dashboard disaggregated by age group</a>
-* <a href="#validating-covid-self-tests">Validating COVID self tests using image recognition</a>
-
-## Contact me ☕
-* Email: [steven.miles.k@gmail.com](steven.miles.k@gmail.com)
+# Contact me :coffee:
+* Email: [steven.miles.k@gmail.com](mailto:steven.miles.k@gmail.com)
 * LinkedIn: [Steven Kerr](https://www.linkedin.com/in/stevenmileskerr/)
 * GitHub: [smkerr](https://github.com/smkerr)
