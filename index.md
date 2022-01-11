@@ -10,21 +10,21 @@ description: "Data Scientist In-Training"
 layout: home
 ---
 
-# About 🎓
+# About
 
-This is a personal website. I'll talk about myself here.
+I’m Steve, a self-identified data enthusiast pursuing a MSc. in Data Science for Public Policy at the [Hertie School](https://www.hertie-school.org/en/) in Berlin. I aim to use code to improve public welfare. As a first year master's student, I’ve been diving deeper into Python & R programming languages with a sprinkle of Bash, HTML, and XPath to contribute to the greater good. This website serves as my attempt to showcase my portfolio as I continue to develop my programming skills.
 
-## My interests 💻📊
-* * *
+## My interests
+I've got a broad range of policy interests aside from the COVID-19 pandemic including:
+* demographic analysis
+* housing policy
+* tax policy
+* health policy
 
-* public policy
-* data science
+## My projects
 
-## My projects 👷‍♂️
-* * *
-
-* [UK COVID dashboard disaggregated by age group]()
-* [Validating COVID self tests using image recognition]()
+* <a href="#uk-covid-dashboard">UK COVID dashboard disaggregated by age group</a>
+* <a href="#validating-covid-self-tests">Validating COVID self tests using image recognition</a>
 
 ## Contact me ☕
 * Email: [steven.miles.k@gmail.com](steven.miles.k@gmail.com)
