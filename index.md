@@ -14,17 +14,17 @@ layout: home
 I'm Steve, a self-proclaimed data enthusiast! I'm pursuing my [MSc. in Data Science for Public Policy](https://www.hertie-school.org/en/mds) at the [Hertie School](https://www.hertie-school.org/en/) in Berlin. I’ve been diving deeper into Python & R programming languages with the aim of improving public services with data science.
 
 ## My interests :mag:
-I've got a broad range of policy interests aside from the COVID-19 pandemic including:
+I've got a broad range of policy interests including:
 * demographic analysis
+* government spending
 * housing policy
 * tax policy
-* government spending
 
 ## My projects :construction_worker:
 * <a href="/projects.html#uk-covid-dashboard">UK COVID Dashboard for Different Age Groups</a>
 * <a href="/projects.html#validating-covid-self-tests">Validating COVID Self Tests with Image Recognition</a>
 
-# Contact me :coffee:
-* Email: [steven.miles.k@gmail.com](mailto:steven.miles.k@gmail.com)
-* LinkedIn: [Steven Kerr](https://www.linkedin.com/in/stevenmileskerr/)
+## Contact me :coffee:
 * GitHub: [smkerr](https://github.com/smkerr)
+* LinkedIn: [Steven Kerr](https://www.linkedin.com/in/stevenmileskerr/)
+* Email: [steven.miles.k@gmail.com](mailto:steven.miles.k@gmail.com)
