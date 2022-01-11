@@ -21,8 +21,8 @@ I've got a broad range of policy interests aside from the COVID-19 pandemic incl
 * government spending
 
 ## My projects :construction_worker:
-* <a href="/projects.html/#uk-covid-dashboard">UK COVID Dashboard Disaggregated by Age Group</a>
-* <a href="/projects.html/#validating-covid-self-tests">Validating COVID Self Tests Using Image Recognition</a>
+* <a href="/projects.html#uk-covid-dashboard">UK COVID Dashboard for Different Age Groups</a>
+* <a href="/projects.html#validating-covid-self-tests">Validating COVID Self Tests with Image Recognition</a>
 
 # Contact me :coffee:
 * Email: [steven.miles.k@gmail.com](mailto:steven.miles.k@gmail.com)
