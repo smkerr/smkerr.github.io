@@ -11,20 +11,19 @@ layout: home
 ---
 
 # About :wave:
-I'm Steve, a self-proclaimed data enthusiast! I'm pursuing my [MSc. in Data Science for Public Policy](https://www.hertie-school.org/en/mds) at the [Hertie School](https://www.hertie-school.org/en/) in Berlin. I’ve been diving deeper into Python & R programming languages with the aim of improving public services with data science.
+I'm Steve, a self-declared data enthusiast! I'm pursuing my [MSc. in Data Science for Public Policy](https://www.hertie-school.org/en/mds) at the [Hertie School](https://www.hertie-school.org/en/) in Berlin. I’m passionate about harnessing data to solve societal problems.
 
-## My interests :mag:
+# My interests :mag:
 I've got a broad range of policy interests including:
 * demographic analysis
 * government spending
 * housing policy
-* tax policy
 
-## My projects :construction_worker:
-* <a href="/projects.html#uk-covid-dashboard">UK COVID Dashboard for Different Age Groups</a>
+# My projects :construction_worker:
+* <a href="/projects.html#uk-covid-dashboard">UK COVID Dashboard Disaggregated by Age Group</a>
 * <a href="/projects.html#validating-covid-self-tests">Validating COVID Self Tests with Image Recognition</a>
 
-## Contact me :coffee:
+# Contact me :coffee:
 * GitHub: [smkerr](https://github.com/smkerr)
 * LinkedIn: [Steven Kerr](https://www.linkedin.com/in/stevenmileskerr/)
 * Email: [steven.miles.k@gmail.com](mailto:steven.miles.k@gmail.com)
