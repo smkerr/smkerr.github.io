@@ -13,6 +13,6 @@ As I matured, I began to view data in a new light. Data wasn’t just useful for
 
 Upon graduating, I took up a position with the newly established United States Space Force as a procurement analyst where my team negotiated deals with space launch providers as part of the National Security Space Launch program. My experience crunching numbers in support of the public sector along with my desire to further develop my coding skills drove me to pursue my [MSc. in Data Science for Public Policy](https://www.hertie-school.org/en/mds) at the Hertie School in Berlin.  
 
-As a first year student, I’ve been diving deeper into Python & R programming languages with a sprinkle of Bash, HTML, and XPath. This website serves as my attempt to showcase my portfolio as I continue developing my coding skills.
+As a first year student, I’ve been diving deeper into Python & R programming languages with a sprinkle of Bash, HTML/CSS, and XPath. This website serves as my attempt to showcase my portfolio as I continue developing my coding skills.
 
 [Go to the Home Page]({{ '/' | absolute_url }})
