@@ -10,7 +10,7 @@ order: 3
 **MSc. Data Science for Public Policy, Hertie School of Governance, Berlin (2021-2023)**
   * Interdisciplinary program focusing on applying data science to societal problems
   * Receiving merit-based partial tuition waiver
-
+<br>
 **B.A. Economics, Pepperdine University, Los Angeles (2015-2019)**
   * Thesis: "Effects of Foreign Exchange Rates on US-Japan Trade Relations"
   * Graduated with honors
@@ -28,8 +28,8 @@ order: 3
   * Hosted a session on building interactive graphics with **R** and **plotly** for the Tools for Data Science workshop at the Hertie school
   * Provided conceptual overview, demonstrated plotly's key features, offered practice materials and additional resources
 
-**[Effects of Foreign Exchange Rates on U.S.-Japan Trade Relations](https://github.com/smkerr/FOREX-trade)** \| [Applied Econometrics (ECON 410)](https://seaver.pepperdine.edu/social-science/undergraduate/economics/)
-  * Quantified the extent to which fluctuations in the U.S. dollar-Japanese yen (USD-JPY) exchange rate impact bilateral trade between the U.S. and Japan using R
+**[Effects of FOREX Rates on U.S.-Japan Trade Relations](https://github.com/smkerr/FOREX-trade)** \| [Applied Econometrics (ECON 410)](https://seaver.pepperdine.edu/social-science/undergraduate/economics/)
+  * Quantified the extent to which fluctuations in the U.S. dollar-Japanese yen (USD-JPY) foreign exchange rate impact bilateral trade between the U.S. and Japan using **R**
   * Constructed a dataset using [U.S. Census Bureau](https://www.census.gov/foreign-trade/statistics/country/index.html) and [U.S. Federal Reserve](https://fred.stlouisfed.org/series/DEXJPUS) data
   * Conducted Granger causality tests, impulse-response tests, and vector autoregression (VAR) analyses to test hypothesis
 
@@ -52,7 +52,7 @@ order: 3
 
 **Procurement Intern, U.S. Air Force, Colorado Springs (2018)**
   * Received formal on-the-job training in market research, price & cost analysis, and negotiation
-  * Assisted with the procurement of IT infrastructure upgrade for U.S. Air Force Space Command HQ
+  * Assisted with the procurement of IT infrastructure upgrade for U.S. Air Force Space Command
 
 **Resident Advisor, Pepperdine University, Los Angeles (2017-2018)**
   * Supported 50+ incoming undergraduate students by creating a constructive living environment
@@ -66,8 +66,9 @@ order: 3
 * **R**
 * **Python**
 * **SQL**
-* **XML**
 * **HTML/CSS**
+* **Bash**
+* **XML**
 * **LaTeX**
 * **Markdown**
 
