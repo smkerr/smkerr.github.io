@@ -84,7 +84,7 @@ order: 3
 * **Dean's List**, Pepperdine University (2017)
 
 # **COMMUNITY INVOLVEMENT**
-* **Data Science Club**, Hertie School (2021-present)
+* **Data Science Society**, Hertie School (2021-present)
 * **Pride Network**, Hertie School (2021-present)
 * **Contracting Directorate Social Council**, U.S. Space Force (2019-2021)
 * **Model United Nations**, Pepperdine University (2017-2019)
@@ -95,13 +95,13 @@ order: 3
 * **Step Forward Program**, Pepperdine University (2015—2017)
 * **Colleges Against Cancer**, Pepperdine University (2015—2016)
 
-# **Relevant Coursework**
+# **RELEVANT COURSEWORK**
 * **Machine Learning** (GRAD-C24) \| Spring 2022
 * **Mathematics for Data Science** (GRAD-C23) \| Spring 2022
 * **Causal Inference** (GRAD-C22) \| Spring 2022
 * **Intro to Data Science** (GRAD-C11) \| Fall 2021
 * **Data Structures & Algorithms** (GRAD-C9) \| Fall 2021
 
-[Download CV here]()
+[Download CV here](assets/pdf/Kerr-Steven-CV-03.22.pdf)
 
 [Go to the Home Page]({{ '/' | absolute_url }})
