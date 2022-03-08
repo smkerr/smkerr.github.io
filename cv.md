@@ -11,6 +11,7 @@ order: 3
   * Interdisciplinary program focusing on applying data science to societal problems
   * Receiving merit-based partial tuition waiver
 <br>
+<br>
 **B.A. Economics, Pepperdine University, Los Angeles (2015-2019)**
   * Thesis: "Effects of Foreign Exchange Rates on US-Japan Trade Relations"
   * Graduated with honors
@@ -92,8 +93,8 @@ order: 3
 * **Economics Reading Group**, Pepperdine University (2019)
 * **Great Books Colloquium**, Pepperdine University (2015-2018)
 * **Student Government Representative**, Pepperdine University (2016-2017)
-* **Step Forward Program**, Pepperdine University (2015—2017)
-* **Colleges Against Cancer**, Pepperdine University (2015—2016)
+* **Step Forward Program**, Pepperdine University (2015-2017)
+* **Colleges Against Cancer**, Pepperdine University (2015-2016)
 
 # **RELEVANT COURSEWORK**
 * **Machine Learning** (GRAD-C24) \| Spring 2022
@@ -102,6 +103,7 @@ order: 3
 * **Intro to Data Science** (GRAD-C11) \| Fall 2021
 * **Data Structures & Algorithms** (GRAD-C9) \| Fall 2021
 
-[Download CV here](assets/pdf/Kerr-Steven-CV-03.22.pdf)
-
+**[Download CV here](assets/pdf/Kerr-Steven-CV-03.22.pdf)**
+<br>
+<br>
 [Go to the Home Page]({{ '/' | absolute_url }})
