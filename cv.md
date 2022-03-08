@@ -10,8 +10,6 @@ order: 3
 **MSc. Data Science for Public Policy, Hertie School of Governance, Berlin (2021-2023)**
   * Interdisciplinary program focusing on applying data science to societal problems
   * Receiving merit-based partial tuition waiver
-<br>
-<br>
 **B.A. Economics, Pepperdine University, Los Angeles (2015-2019)**
   * Thesis: "Effects of Foreign Exchange Rates on US-Japan Trade Relations"
   * Graduated with honors
@@ -104,6 +102,5 @@ order: 3
 * **Data Structures & Algorithms** (GRAD-C9) \| Fall 2021
 
 **[Download CV here](assets/pdf/Kerr-Steven-CV-03.22.pdf)**
-<br>
-<br>
+
 [Go to the Home Page]({{ '/' | absolute_url }})
