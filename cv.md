@@ -80,8 +80,8 @@ order: 3
 
 # **RELEVANT COURSEWORK**
 * **Machine Learning** (GRAD-C24) \| Spring 2022
-* **Mathematics for Data Science** (GRAD-C23) \| Spring 2022
 * **Causal Inference** (GRAD-C22) \| Spring 2022
+* **Math for Data Science** (GRAD-C23) \| Spring 2022
 * **Intro to Data Science** (GRAD-C11) \| Fall 2021
 * **Data Structures & Algorithms** (GRAD-C9) \| Fall 2021
 
@@ -107,7 +107,7 @@ order: 3
 # **LANGUAGES**
 
 | English | Spanish | French | German |
-| :----: | :----: | :----: |
+| :----: | :----: | :----: | :----: |
 | Native  | B2      | B1     | A2     |
 
 [Go to the Home Page]({{ '/' | absolute_url }})
