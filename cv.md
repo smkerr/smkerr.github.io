@@ -26,7 +26,7 @@ order: 3
   * Extracted COVID case rate dataset and boundary data for all 309 local authority districts from [UK government APIs](https://coronavirus.data.gov.uk)
 
 **[Workshop: Interactive Graphics with Plotly](https://github.com/smkerr/plotly-workshop)** \| [Intro to Data Science (GRAD-C11)](https://www.hertie-school.org/en/study/course-catalogue/course/course/introduction-to-data-science)
-  * Hosted a session on building interactive graphics with **R** and **plotly** for the Tools for Data Science workshop at the Hertie school
+  * Hosted a session on building interactive graphics with **R** and **plotly** for the [Tools for Data Science Workshop](https://intro-to-data-science-21-workshop.github.io/) at the Hertie school
   * Provided conceptual overview, demonstrated plotly's key features, offered practice materials and additional resources
 
 **[Effects of FOREX Rates on U.S.-Japan Trade Relations](https://github.com/smkerr/FOREX-trade)** \| [Applied Econometrics (ECON 410)](https://seaver.pepperdine.edu/social-science/undergraduate/economics/)
@@ -65,8 +65,8 @@ order: 3
   * Nominated articles for publication based on academic rigor, grammar, spelling, syntax, and organizational structure
 
 # **Technical Competencies**
-* **R**
 * **Python/Jupyer Notebook**
+* **R**
 * **SQL**
 * **Git/GitHub/Version Control**
 * **Bash/Command Line**
@@ -76,7 +76,7 @@ order: 3
 * **API Requests**
 * **Markdown**
 * **LaTeX**
-# **MS Office**
+* **MS Office**
 
 # **RELEVANT COURSEWORK**
 * **Machine Learning** (GRAD-C24) \| Spring 2022
@@ -100,14 +100,14 @@ order: 3
 * **Data Science Society**, Hertie School (2021-present)
 * **Pride Network**, Hertie School (2021-present)
 * **Sigma Iota Rho National Honors Society**, Pepperdine University (2017-2019)
-* **Economics Reading Group**, Pepperdine University (2019)
+* **Model United Nations**, Pepperdine University (2017-2019)
 * **Student Government Representative**, Pepperdine University (2016-2017)
 * **Step Forward Program**, Pepperdine University (2015-2017)
-* **Colleges Against Cancer**, Pepperdine University (2015-2016)
 
 # **LANGUAGES**
+
 | English | Spanish | French | German |
-|---------|---------|--------|--------|
+| :----: | :----: | :----: |
 | Native  | B2      | B1     | A2     |
 
 [Go to the Home Page]({{ '/' | absolute_url }})
