@@ -6,25 +6,26 @@ ref: cv
 order: 3
 ---
 
+**[Download Resume](assets/pdf/Kerr_Steven_Resume.pdf)** \| **[Download CV](assets/pdf/Kerr_Steven_CV.pdf)**
+
 # **EDUCATION** 🎓
 **MSc. Data Science for Public Policy, Hertie School of Governance, Berlin (2021-2023)**
   * Interdisciplinary program focusing on applying data science to societal problems
   * Receiving merit-based partial tuition waiver
 
-**B.A. Economics, Pepperdine University, Los Angeles (2015-2019)**
+**B.A. Economics (*with honors*), Pepperdine University, Los Angeles (2015-2019)**
   * Thesis: "Effects of Foreign Exchange Rates on US-Japan Trade Relations"
-  * Graduated with honors
 
 # **PROJECTS**
 **[Validating COVID Self-Tests with Image Recognition](/projects.html#validating-covid-self-tests)** \| [Data Structures & Algorithms (GRAD-C9)](https://www.hertie-school.org/en/study/course-catalogue/course/course/data-structures-and-algorithms)
   * Developed an algorithm capable of validating COVID self-test using image recognition with **Python**
-  * Used data from the [MNIST database of handwritten digits](http://yann.lecun.com/exdb/mnist/), a collection of more than 60,000 examples, to train the Machine Learning algorithm to recognize handwritten serial numbers and COVID test results
+  * Used data from the [MNIST database of handwritten digits](http://yann.lecun.com/exdb/mnist/), a collection of 70,000 examples, to train the Machine Learning algorithm to recognize handwritten serial numbers and COVID test results
 
 **[UK COVID Dashboard Disaggregated by Age Group](/projects.html#uk-covid-dashboard)** \| [Intro to Data Science (GRAD-C11)](https://www.hertie-school.org/en/study/course-catalogue/course/course/introduction-to-data-science)
   * Hosted and deployed dashboard with **R** and **Shiny** to track COVID case rates in England with the added option to disaggregate by age group
   * Extracted COVID case rate dataset and boundary data for all 309 local authority districts from [UK government APIs](https://coronavirus.data.gov.uk)
 
-**[Workshop: Interactive Graphics with plotly](https://github.com/smkerr/plotly-workshop)** \| [Intro to Data Science (GRAD-C11)](https://www.hertie-school.org/en/study/course-catalogue/course/course/introduction-to-data-science)
+**[Workshop: Interactive Graphics with Plotly](https://github.com/smkerr/plotly-workshop)** \| [Intro to Data Science (GRAD-C11)](https://www.hertie-school.org/en/study/course-catalogue/course/course/introduction-to-data-science)
   * Hosted a session on building interactive graphics with **R** and **plotly** for the Tools for Data Science workshop at the Hertie school
   * Provided conceptual overview, demonstrated plotly's key features, offered practice materials and additional resources
 
@@ -54,46 +55,28 @@ order: 3
   * Received formal on-the-job training in market research, price & cost analysis, and negotiation
   * Assisted with the procurement of IT infrastructure upgrade for U.S. Air Force Space Command
 
-**Resident Advisor, Pepperdine University, Los Angeles (2017-2018)**
-  * Supported 50+ incoming undergraduate students by creating a constructive living environment
-  * Planned, budgeted, and advertised weekly events for residential community
+**Research Assistant, Pepperdine University, Los Angeles (2017)**
+  * Conducted qualitative study examining student perspectives on diversity at Pepperdine University
+  * Performed literature review, ran 12 focus groups, and transcribed student interviews
+  * Generated report synthesizing findings and presented key takeaways at research symposium
 
 **Associate Editor, Pepperdine University, Los Angeles (2016-2017)**
   * Evaluated submissions for the Pepperdine Journal of Communication Research
   * Nominated articles for publication based on academic rigor, grammar, spelling, syntax, and organizational structure
 
-# **Technical Skills**
+# **Technical Competencies**
 * **R**
-* **Python**
+* **Python/Jupyer Notebook**
 * **SQL**
-* **HTML/CSS**
-* **Bash**
-* **XML**
-* **LaTeX**
+* **Git/GitHub/Version Control**
+* **Bash/Command Line**
+* **Web-scraping (HTML/CSS/XML)**
+* **Shiny Apps & Dashboards**
+* **Machine Leaning**
+* **API Requests**
 * **Markdown**
-
-# **RECOGNITION**
-* **Merit-based Tuition Waiver**, Hertie School (2021-2023)
-* **Contracting Civilian-in-Training of the Year**, U.S. Space Force (2020)
-* **Regents' Scholar Award (Top Academic Scholarship)**, Pepperdine University (2015-2019)
-* **Cum Laude**, Peppperdine University (2019)
-* **Best Delegate Award**, National Model United Nations - China (2018)
-* **Position Paper Award**, National Model United Nations - China (2018)
-* **Outstanding Delegation**, National Model United Nations - New York City (2018)
-* **Blanche E. Seaver Faculty-Staff Scholarship**, Pepperdine University (2018)
-* **Dean's List**, Pepperdine University (2017)
-
-# **COMMUNITY INVOLVEMENT**
-* **Data Science Society**, Hertie School (2021-present)
-* **Pride Network**, Hertie School (2021-present)
-* **Contracting Directorate Social Council**, U.S. Space Force (2019-2021)
-* **Model United Nations**, Pepperdine University (2017-2019)
-* **Sigma Iota Rho National Honors Society**, Pepperdine University (2017-2019)
-* **Economics Reading Group**, Pepperdine University (2019)
-* **Great Books Colloquium**, Pepperdine University (2015-2018)
-* **Student Government Representative**, Pepperdine University (2016-2017)
-* **Step Forward Program**, Pepperdine University (2015-2017)
-* **Colleges Against Cancer**, Pepperdine University (2015-2016)
+* **LaTeX**
+# **MS Office**
 
 # **RELEVANT COURSEWORK**
 * **Machine Learning** (GRAD-C24) \| Spring 2022
@@ -102,6 +85,29 @@ order: 3
 * **Intro to Data Science** (GRAD-C11) \| Fall 2021
 * **Data Structures & Algorithms** (GRAD-C9) \| Fall 2021
 
-**[Download CV here](assets/pdf/Kerr-Steven-CV-03.22.pdf)**
+# **RECOGNITION**
+* **Merit-based Tuition Waiver**, Hertie School (2021-2023)
+* **Contracting Civilian-in-Training of the Year**, U.S. Space Force (2020)
+* **Regents' Scholar Award (Top Academic Scholarship)**, Pepperdine University (2015-2019)
+* **Cum Laude**, Peppperdine University (2019)
+* **Best Delegate Award**, National Model United Nations - China (2018)
+* **Position Paper Award**, National Model United Nations - New York (2018)
+* **Blanche E. Seaver Faculty-Staff Scholarship**, Pepperdine University (2018)
+* **Dean's List**, Pepperdine University (2017)
+
+# **COMMUNITY INVOLVEMENT**
+* **Tech Society**, Hertie School (2022-present)
+* **Data Science Society**, Hertie School (2021-present)
+* **Pride Network**, Hertie School (2021-present)
+* **Sigma Iota Rho National Honors Society**, Pepperdine University (2017-2019)
+* **Economics Reading Group**, Pepperdine University (2019)
+* **Student Government Representative**, Pepperdine University (2016-2017)
+* **Step Forward Program**, Pepperdine University (2015-2017)
+* **Colleges Against Cancer**, Pepperdine University (2015-2016)
+
+# **LANGUAGES**
+| English | Spanish | French | German |
+|---------|---------|--------|--------|
+| Native  | B2      | B1     | A2     |
 
 [Go to the Home Page]({{ '/' | absolute_url }})

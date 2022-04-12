@@ -18,7 +18,7 @@ Together with fellow master's students [Kai Foerster](https://github.com/kaifoer
 ***
 
 # <a id="validating-covid-self-tests">[Validating COVID Self Tests with Image Recognition](https://github.com/smkerr/COVID-test-validation)</a>
-With the understanding that COVID rapid tests will continue to play a key role in the post-pandemic world, I once again found myself working alongside [Kai Foerster](https://github.com/kaifoerster) and [Dominik Cramer](https://github.com/DominikCramer) to develop a program capable of validating COVID self tests using image recognition. We used data from the [MNIST database of handwritten digits](http://yann.lecun.com/exdb/mnist/), a collection of more than 60,000 examples, to train our Machine Learning algorithm to recognize handwritten serial numbers and COVID test results.
+With the understanding that COVID rapid tests will continue to play a key role in the post-pandemic world, I once again found myself working alongside [Kai Foerster](https://github.com/kaifoerster) and [Dominik Cramer](https://github.com/DominikCramer) to develop a program capable of validating COVID self tests using image recognition. We used data from the [MNIST database of handwritten digits](http://yann.lecun.com/exdb/mnist/), a collection of 70,000 examples, to train our Machine Learning algorithm to recognize handwritten serial numbers and COVID test results.
 
 :octocat: [GitHub](https://github.com/smkerr/COVID-test-validation)
 

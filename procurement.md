@@ -4,7 +4,7 @@ title: Procurement Policy
 tagline: How governments spend their money
 permalink: /procurement.html
 ref: procurement
-order: 4
+order:
 ---
 
 Here's the reader-friendly article: https://nadaesgratis.es/manuel-garcia-santana/buy-local-proteccionismo-local-en-las-compras-de-las-administraciones-publicas
