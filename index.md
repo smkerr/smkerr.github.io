@@ -6,7 +6,7 @@
 # See: https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 #
 title: Steven M. Kerr
-description: "Data Scientist In-Training"
+description: "Aspiring Data Scientist"
 layout: home
 ---
 
