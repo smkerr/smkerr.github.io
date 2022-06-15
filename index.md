@@ -11,7 +11,7 @@ layout: home
 ---
 
 # About :wave:
-I'm Steve, a self-identified data enthusiast! I'm currently pursuing my [MSc. in Data Science for Public Policy](https://www.hertie-school.org/en/mds) at the [Hertie School](https://www.hertie-school.org/en/) in Berlin while also working for [CPC Analytis](https://www.cpc-analytics.com). I’m passionate about harnessing data to solve societal problems.
+I'm Steve, a self-identified data enthusiast! I'm currently pursuing my [MSc. in Data Science for Public Policy](https://www.hertie-school.org/en/mds) at the [Hertie School](https://www.hertie-school.org/en/) in Berlin while also working for [CPC Analytics](https://www.cpc-analytics.com). I’m passionate about harnessing data to solve societal problems.
 
 # My interests :mag:
 I've got a broad range of policy interests including:
