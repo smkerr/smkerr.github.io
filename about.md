@@ -13,7 +13,7 @@ As I matured, I began to view data in a new light. Data wasn’t just useful for
 
 Upon graduating, I took up a position with the newly established U.S. Space Force as a procurement analyst where my team negotiated deals with rocket launch providers. My experience crunching numbers in support of the public sector along with my desire to further develop my coding skills drove me to pursue my [MSc. in Data Science for Public Policy](https://www.hertie-school.org/en/mds) at the Hertie School in Berlin.  
 
-In my first year of the program, I had the opportunity to dive deeper into Python and R programming languages while gaining exposure to SQL, HTML/CSS/XML, and Bash. I'm currently putting those skills to use in my role as Junior Data Scientist at [CPC Analytics](https://www.cpc-analytics.com) where I support our partners at the [WHO Hub for Pandemic and Epidemic Intelligence](https://pandemichub.who.int/) with projects related to global outbreaks.
+In my first year of the program, I had the opportunity to dive deeper into Python and R programming languages while gaining exposure to SQL, HTML/CSS/XML, and Bash. I'm currently putting those skills to use in my role as Junior Data Scientist at [CPC Analytics](https://www.cpc-analytics.com) where I support our partners at the [WHO Hub for Pandemic and Epidemic Intelligence](https://pandemichub.who.int/) with projects related to global health emergencies.
 
 Data science is a vast field and I still have a lot to learn. This website is my attempt to showcase my portfolio as I continue to grow my skillset.
 

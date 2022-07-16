@@ -22,9 +22,9 @@ I've got a broad range of policy interests including:
 * housing policy
 
 # My projects :construction_worker:
-* <a href="/projects.html#uk-covid-dashboard">UK COVID Dashboard Disaggregated by Age Group</a>
-* <a href="/projects.html#validating-covid-self-tests">Validating COVID Self Tests with Image Recognition</a>
 * <a href="/projects.html#detecting-covid-fake-news">Detecting COVID-related Fake News with Machine Learning</a>
+* <a href="/projects.html#validating-covid-self-tests">Validating COVID Self Tests with Image Recognition</a>
+* <a href="/projects.html#uk-covid-dashboard">UK COVID Dashboard Disaggregated by Age Group</a>
 
 # Contact me :coffee:
 * Email: [steven.miles.k@gmail.com](mailto:steven.miles.k@gmail.com)

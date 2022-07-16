@@ -48,10 +48,6 @@ order: 3
   * Procured supplies and services necessary to support $800M National Security Space Launch Services portfolio
   * Conducted market research, analyzed historical cost & pricing data, and performed quantitative analyses to establish negotiation objectives
 
-**Accreditation Assistant, Pepperdine University, Los Angeles (2019)**
-  * Supported Pepperdine University’s 5-Year Economics Department Review by organizing and facilitating focus group of 20+ Economics students to gauge program effectiveness
-  * Analyzed survey data and presented findings to Economics faculty and staff
-
 **Director of Education, Pepperdine Model United Nations, Los Angeles (2018-2019)**
   * Led weekly 1hr 30min sessions to train 26 undergraduate and graduate students in research, policy analysis, memo writing, public speaking and advanced debate skills
   * reports on a diverse set of topics such as external debt sustainability, financing for renewable energy projects, and the economic impact of intellectual property transfer
@@ -95,6 +91,7 @@ order: 3
 * **Causal Inference** (GRAD-C22) \| Spring 2022
 * **Intro to Data Science** (GRAD-C11) \| Fall 2021
 * **Data Structures & Algorithms** (GRAD-C9) \| Fall 2021
+* **Applied Econometrics** (ECON 410) \| Spring 2019
 
 # **RECOGNITION**
 * **Merit-based Tuition Waiver**, Hertie School (2021-2023)
