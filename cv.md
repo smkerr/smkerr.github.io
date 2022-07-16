@@ -9,7 +9,7 @@ order: 3
 **[Download Resume](assets/pdf/Kerr_Steven_Resume.pdf)** \| **[Download CV](assets/pdf/Kerr_Steven_CV.pdf)**
 
 # **EDUCATION** 🎓
-**MSc. Data Science for Public Policy, Hertie School of Governance, Berlin (2021-2023)**
+**MSc. Data Science for Public Policy, Hertie School of Governance, Berlin (2021-2024)**
   * Interdisciplinary program focusing on applying data science to societal problems
   * Receiving merit-based partial tuition waiver
 
@@ -17,6 +17,11 @@ order: 3
   * Thesis: "Effects of Foreign Exchange Rates on US-Japan Trade Relations"
 
 # **PROJECTS**
+**[Detecting COVID-related Fake News with Machine Learning](/projects.html#detecting-covid-fake-news)** \| [Maching Learning (GRAD-24)](https://www.hertie-school.org/en/study/course-catalogue/course/course/machine-learning)
+  * Used the [Covid-19 Fake News dataset](https://paperswithcode.com/dataset/covid-19-fake-news-dataset) comprising 10,700 Covid-related social media posts labeled either “real” or “fake” to build a fake news detection algorithm with **Python**
+  * Measured the extent to which the fake news detection algorithm degraded over time due to temporal shifts in content
+  * Authored [blog post](assets/html/ML-blog-post.html) detailing methods and findings
+
 **[Validating COVID Self-Tests with Image Recognition](/projects.html#validating-covid-self-tests)** \| [Data Structures & Algorithms (GRAD-C9)](https://www.hertie-school.org/en/study/course-catalogue/course/course/data-structures-and-algorithms)
   * Developed an algorithm capable of validating COVID self-test using image recognition with **Python**
   * Used data from the [MNIST database of handwritten digits](http://yann.lecun.com/exdb/mnist/), a collection of 70,000 examples, to train the Machine Learning algorithm to recognize handwritten serial numbers and COVID test results
@@ -35,6 +40,10 @@ order: 3
   * Conducted Granger causality tests, impulse-response tests, and vector autoregression (VAR) analyses to test hypothesis
 
 # **EXPERIENCE**
+**Junior Data Scientist, CPC Analytics, Berlin (2022-present)**
+  * Working with clients to develop, initiate, and implement new projects in the field of global health – particularly focused on developing a new global data and analysis ecosystem for pandemic preparedness and response
+  * Conducting landscape analyses on policy initiatives in global health, understanding financial flows, and assessing implications of recommendations made by policy actors on an ongoing basis
+
 **Procurement Analyst, U.S.  Space Force, Los Angeles (2019-2021)**
   * Procured supplies and services necessary to support $800M National Security Space Launch Services portfolio
   * Conducted market research, analyzed historical cost & pricing data, and performed quantitative analyses to establish negotiation objectives
@@ -65,23 +74,25 @@ order: 3
   * Nominated articles for publication based on academic rigor, grammar, spelling, syntax, and organizational structure
 
 # **Technical Competencies**
-* **Python/Jupyer Notebook**
+* **Python/Jupyter Notebook**
 * **R**
 * **SQL**
 * **Git/GitHub/Version Control**
 * **Bash/Command Line**
+* **XML**
 * **Web-scraping (HTML/CSS/XML)**
 * **Shiny Apps & Dashboards**
-* **Machine Leaning**
 * **API Requests**
+* **Machine Learning**
+* **Natural Language Processing**
 * **Markdown**
 * **LaTeX**
 * **MS Office**
 
 # **RELEVANT COURSEWORK**
 * **Machine Learning** (GRAD-C24) \| Spring 2022
-* **Causal Inference** (GRAD-C22) \| Spring 2022
 * **Math for Data Science** (GRAD-C23) \| Spring 2022
+* **Causal Inference** (GRAD-C22) \| Spring 2022
 * **Intro to Data Science** (GRAD-C11) \| Fall 2021
 * **Data Structures & Algorithms** (GRAD-C9) \| Fall 2021
 
@@ -96,9 +107,8 @@ order: 3
 * **Dean's List**, Pepperdine University (2017)
 
 # **COMMUNITY INVOLVEMENT**
-* **Tech Society**, Hertie School (2022-present)
 * **Data Science Society**, Hertie School (2021-present)
-* **Pride Network**, Hertie School (2021-present)
+* **Hertie Pride Network**, Hertie School (2021-present)
 * **Sigma Iota Rho National Honors Society**, Pepperdine University (2017-2019)
 * **Model United Nations**, Pepperdine University (2017-2019)
 * **Student Government Representative**, Pepperdine University (2016-2017)

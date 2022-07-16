@@ -11,12 +11,12 @@ layout: home
 ---
 
 # About :wave:
-I'm Steve, a self-identified data enthusiast! I'm currently pursuing my [MSc. in Data Science for Public Policy](https://www.hertie-school.org/en/mds) at the [Hertie School](https://www.hertie-school.org/en/) in Berlin while also working for [CPC Analytics](https://www.cpc-analytics.com). I’m passionate about harnessing data to solve societal problems.
+I'm Steve, a self-identified data enthusiast with a passion for the public good. I'm currently pursuing my [MSc. in Data Science for Public Policy](https://www.hertie-school.org/en/mds) at the [Hertie School](https://www.hertie-school.org/en/) in Berlin while also working on global health topics as a Junior Data Scientist with [CPC Analytics](https://www.cpc-analytics.com).
 
 # My interests :mag:
 I've got a broad range of policy interests including:
 * global health
-* economic development
+* development aid
 * government spending
 * demographic analysis
 * housing policy
@@ -24,8 +24,9 @@ I've got a broad range of policy interests including:
 # My projects :construction_worker:
 * <a href="/projects.html#uk-covid-dashboard">UK COVID Dashboard Disaggregated by Age Group</a>
 * <a href="/projects.html#validating-covid-self-tests">Validating COVID Self Tests with Image Recognition</a>
+* <a href="/projects.html#detecting-covid-fake-news">Detecting COVID-related Fake News with Machine Learning</a>
 
 # Contact me :coffee:
-* GitHub: [smkerr](https://github.com/smkerr)
-* LinkedIn: [Steven Kerr](https://www.linkedin.com/in/stevenmileskerr/)
 * Email: [steven.miles.k@gmail.com](mailto:steven.miles.k@gmail.com)
+* LinkedIn: [Steven Kerr](https://www.linkedin.com/in/stevenmileskerr/)
+* GitHub: [smkerr](https://github.com/smkerr)

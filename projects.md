@@ -24,4 +24,15 @@ With the understanding that COVID rapid tests will continue to play a key role i
 
 ![Validating COVID Test Results](assets/img/validating-covid-test-results.png "Validating COVID Test Results"){: .center-image }
 
+***
+
+# <a id="detecting-covid-fake-news">[Detecting COVID-related Fake News with Machine Learning](https://github.com/smkerr/COVID-fake-news-detection)</a>
+Alarmed by the amount of COVID-related fake news circulating through social media platforms, my classmates [Hannah Schweren](https://github.com/hannahmagda), [Marco Schildt](https://github.com/m-schildt), and I set out to construct our own fake news detection algorithm. We used Patwa et al.'s [Covid-19 Fake News dataset](https://paperswithcode.com/dataset/covid-19-fake-news-dataset) comprising 10,700 Covid-related social media posts labeled either “real” or “fake” to develop a competitive prediction model. We also examined the extent to which our fake news detection algorithm degraded over time due to the ever-evolving nature of fake news.
+
+Here's the [blog post](assets/html/ML-blog-post.html) we prepared for the Hertie Data Science Lab detailing our project.
+
+:octocat: [GitHub](https://github.com/smkerr/COVID-fake-news-detection)
+
+![Detecting COVID-related Fake News](assets/img/fake-news-scatterplot.png "Detecting COVID-related Fake News"){: .center-image }
+
 [Go to the Home Page]({{ '/' | absolute_url }})

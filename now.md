@@ -7,13 +7,10 @@ ref: now
 order: 2
 ---
 
-Right now I'm gearing up for the upcoming semester's course-load by reviewing statistical concepts. So far, I've found [Mostly Harmless Econometrics](https://www.goodreads.com/book/show/3388277-mostly-harmless-econometrics) by Dr. Josh Angrist & Dr. Steve Pischke to be a particularly helpful read.
+Since successfully completing the first year of my master's program, I've begun working as a Junior Data Scientist for [CPC Analytics](cpc-analytics.com), a consultancy firm focused on global health topics based in Berlin. In my role, I translate global health-related data into actionable insights for policymakers. I primarily support our partners at the [WHO Hub for Pandemic and Epidemic Intelligence] with projects related to global outbreaks including the ongoing Monkeypox outbreak.
 
-Aside from pre-coursework, I have a few projects I'm working on. First off, I'm analyzing my own Netflix data to identify trends in my watch history throughout the pandemic. Next, I'm looking at Spotify data to see how the listening habits (as measured by top artists and trending genres) differ between regions with separatist movements compared with the rest of the country.
+Aside from work, I'm taking advantage of summer in Berlin while it lasts. The city truly is a different place when you add in a bit of warmth and sunlight. :sunny:
 
-Beyond coding, I’m taking advantage of a long winter vacation to improve my elementary level Spanish. Since my boyfriend and I will be spending the month of January in his hometown of Seville, Spain, it seems like as good a time as any to make some serious progress.
-
-Hasta Luego 👋,\
-Steve
+\- Steve
 
 [Go to the Home Page]({{ '/' | absolute_url }})
