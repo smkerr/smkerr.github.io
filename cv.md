@@ -7,7 +7,6 @@ order: 3
 ---
 
 **[Download Resume](assets/pdf/Kerr_Steven_Resume.pdf)** \| **[Download CV](assets/pdf/Kerr_Steven_CV.pdf)**
-**[Download writing sample](assets/html/ML-blog-post.html)**
 
 # **EDUCATION** 🎓
 **MSc. Data Science for Public Policy, Hertie School of Governance, Berlin (2021-2024)**
