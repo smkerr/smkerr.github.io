@@ -7,7 +7,16 @@ ref: projects
 order: 1
 ---
 
-# <a id="detecting-covid-fake-news">[Detecting COVID-related Fake News with Machine Learning](https://github.com/smkerr/COVID-fake-news-detection)</a>
+# <a id="global-monkeypox-outbreak">[2022 Monkeypox Outbreak: Global Trends](https://worldhealthorg.shinyapps.io/mpx_global/)</a>
+
+I contributed to the WHO's [2022 Monkeypox Outbreak: Global Trends](https://worldhealthorg.shinyapps.io/mpx_global/) report announced [here](https://reliefweb.int/report/world/who-director-generals-opening-remarks-second-meeting-ihr-emergency-committee-regarding-multi-country-outbreak-monkeypox-21-july-2022).
+
+<blockquote class="twitter-tweet">
+<p lang="en" dir="ltr">The World Health Organization <a href="https://twitter.com/WHO?ref_src=twsrc%5Etfw">@WHO</a> has launched a live data dashboard for the multi-country monkeypox outbreak.<br><br>Access via: <a href="https://t.co/W6xAUxRrNH">https://t.co/W6xAUxRrNH</a> <br><br>More details on the epidemiological data can be found in the online epidemiological report here: <a href="https://t.co/59a07fLQ3T">https://t.co/59a07fLQ3T</a> <a href="https://t.co/7Zb4foO7O9">pic.twitter.com/7Zb4foO7O9</a></p>&mdash; Chikwe Ihekweazu (@Chikwe_I) <a href="https://twitter.com/Chikwe_I/status/1551521737090760704?ref_src=twsrc%5Etfw">July 25, 2022</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+***
+
+# <a id="detecting-covid-fake-news">[Detecting COVID-related Fake News with NLP](https://github.com/smkerr/COVID-fake-news-detection)</a>
 Alarmed by the amount of COVID-related fake news circulating through social media platforms, my classmates [Hannah Schweren](https://github.com/hannahmagda), [Marco Schildt](https://github.com/m-schildt), and I set out to construct our own fake news detection algorithm. We used Patwa et al.'s [Covid-19 Fake News dataset](https://paperswithcode.com/dataset/covid-19-fake-news-dataset) comprising 10,700 Covid-related social media posts labeled either “real” or “fake” to develop a competitive prediction model. We also examined the extent to which our fake news detection algorithm degraded over time due to the ever-evolving nature of fake news.
 
 Here's the [blog post](assets/html/ML-blog-post.html) we prepared for the Hertie Data Science Lab detailing our project.
