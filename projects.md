@@ -7,9 +7,9 @@ ref: projects
 order: 1
 ---
 
-# <a id="global-monkeypox-outbreak">[2022-23 Mpox (Monkeypox) Outbreak: Global Trends](https://worldhealthorg.shinyapps.io/mpx_global/)</a>
+# <a id="global-monkeypox-outbreak">[2022-23 Mpox Outbreak: Global Trends Report](https://worldhealthorg.shinyapps.io/mpx_global/)</a>
 
-I helped to build and maintain the World Health Organization's [2022-23 Mpox (Monkeypox) Outbreak: Global Trends](https://worldhealthorg.shinyapps.io/mpx_global/).
+I helped to build and maintain the World Health Organization's [2022-23 Mpox (Monkeypox) Outbreak: Global Trends Report](https://worldhealthorg.shinyapps.io/mpx_global/).
 
 <div class="my-container">
 
