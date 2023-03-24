@@ -9,10 +9,9 @@ order: 1
 
 # <a id="global-monkeypox-outbreak">[2022 Monkeypox Outbreak: Global Trends](https://worldhealthorg.shinyapps.io/mpx_global/)</a>
 
-I contributed to the WHO's [2022 Monkeypox Outbreak: Global Trends](https://worldhealthorg.shinyapps.io/mpx_global/) report announced [here](https://reliefweb.int/report/world/who-director-generals-opening-remarks-second-meeting-ihr-emergency-committee-regarding-multi-country-outbreak-monkeypox-21-july-2022).
+I helped to build and maintain the World Health Organization's [2022 Monkeypox Outbreak: Global Trends](https://worldhealthorg.shinyapps.io/mpx_global/).
 
-<blockquote class="twitter-tweet">
-<p lang="en" dir="ltr">The World Health Organization <a href="https://twitter.com/WHO?ref_src=twsrc%5Etfw">@WHO</a> has launched a live data dashboard for the multi-country monkeypox outbreak.<br><br>Access via: <a href="https://t.co/W6xAUxRrNH">https://t.co/W6xAUxRrNH</a> <br><br>More details on the epidemiological data can be found in the online epidemiological report here: <a href="https://t.co/59a07fLQ3T">https://t.co/59a07fLQ3T</a> <a href="https://t.co/7Zb4foO7O9">pic.twitter.com/7Zb4foO7O9</a></p>&mdash; Chikwe Ihekweazu (@Chikwe_I) <a href="https://twitter.com/Chikwe_I/status/1551521737090760704?ref_src=twsrc%5Etfw">July 25, 2022</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+<blockquote class="twitter-tweet tw-align-center""><p lang="en" dir="ltr">With over 86,000 total cases &amp; 96 related deaths, <a href="https://twitter.com/hashtag/mpox?src=hash&amp;ref_src=twsrc%5Etfw">#mpox</a> outbreak has slowed down but is still ongoing in several countries.<br><br>Maintained surveillance &amp; enhanced access to diagnostics, vaccines and treatments are key to stop the disease transmission globally <a href="https://t.co/mLHsVoWKBY">https://t.co/mLHsVoWKBY</a> <a href="https://t.co/PcLFQjjrz7">pic.twitter.com/PcLFQjjrz7</a></p>&mdash; World Health Organization (WHO) (@WHO) <a href="https://twitter.com/WHO/status/1628121766097989632?ref_src=twsrc%5Etfw">February 21, 2023</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 ***
 
