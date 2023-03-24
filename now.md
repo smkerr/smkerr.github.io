@@ -11,6 +11,6 @@ Following the successful finish to the first year of my master's program, I've s
 
 Aside from work, I'm taking advantage of summer in Berlin while it lasts. The city truly is a different place when you add in a bit of warmth and sunlight. :sunny:
 
-\- Steve
+\~ Steve
 
 [Go to the Home Page]({{ '/' | absolute_url }})

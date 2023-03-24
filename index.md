@@ -17,8 +17,7 @@ I'm Steve, a self-identified data enthusiast with a passion for the public good.
 I've got a broad range of policy interests including:
 * global health
 * development aid
-* government spending
-* demographic analysis
+* demographic trends
 * housing policy
 
 # My projects :construction_worker:
