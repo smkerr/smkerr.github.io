@@ -3,8 +3,12 @@
 
 @import 'jekyll-theme-cayman-blog';
 
-.center-image
-{
+.my-container{
+    margin:auto;
+    width:200px;    
+}
+
+.center-image{
     margin: 0 auto;
     display: block;
 }
