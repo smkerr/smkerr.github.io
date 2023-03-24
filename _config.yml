@@ -32,4 +32,4 @@ plugins:
 target-blank:
     rel: nofollow
 
-header_page_refs: ['now', 'about', 'projects', 'cv']
+header_page_refs: ['about', 'projects', 'now', 'cv']
