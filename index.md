@@ -1,24 +1,20 @@
 ---
-#
-# Here you can change the text shown in the Home page before the Latest Posts section.
-#
 # Edit cayman-blog's home layout in _layouts instead if you wanna make some changes
 # See: https://jekyllrb.com/docs/themes/#overriding-theme-defaults
-#
+
 title: Steven M. Kerr
-description: "Aspiring Data Scientist"
+description: "MSc Data Scientist for Public Policy Student"
 layout: home
 ---
 
 # About :wave:
-I'm Steve, a self-identified data enthusiast with a passion for the public good. I'm currently pursuing my [MSc. in Data Science for Public Policy](https://www.hertie-school.org/en/mds) at the [Hertie School](https://www.hertie-school.org/en/) in Berlin while also working on global health topics as a Junior Data Scientist with [CPC Analytics](https://www.cpc-analytics.com).
+I'm Steve, a self-identified data enthusiast with a passion for promoting the public good. I'm currently pursuing my [MSc. in Data Science for Public Policy](https://www.hertie-school.org/en/mds) at the [Hertie School](https://www.hertie-school.org/en/) in Berlin. During my studies, I've had the opportunity to contribute to data science projects focusing on global health topics at [CPC Analytics](https://www.cpc-analytics.com).
 
 # My interests :mag:
-I've got a broad range of policy interests including:
+I have a broad range of policy interests including:
 * global health
 * development aid
-* demographic trends
-* housing policy
+* socioeconomic inequality
 
 # My projects :construction_worker:
 * <a href="/projects.html#detecting-covid-fake-news">Detecting COVID-related Fake News with Machine Learning</a>
