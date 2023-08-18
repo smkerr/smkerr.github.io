@@ -77,7 +77,7 @@ order: 1
   * Nominated articles for publication based on academic rigor, grammar, spelling, syntax, and organizational structure
 
 # **Publications** 📝
-Laurenson-Schafer H, Sklenovská N, Hoxha A, *Kerr SM*, Ndumbi P, Fitzner J, et al. Description of the first global outbreak of mpox: an analysis of global surveillance data. The Lancet Global Health. **2023 Jul**; 11(7):e1012-e1023. doi:[10.1016/S2214-109X(23)00198-5](https://doi.org/10.1016/S2214-109X(23)00198-5).
+Laurenson-Schafer H, Sklenovská N, Hoxha A, **Kerr SM**, Ndumbi P, Fitzner J, et al. Description of the first global outbreak of mpox: an analysis of global surveillance data. The Lancet Global Health. **2023 Jul**; 11(7):e1012-e1023. doi:[10.1016/S2214-109X(23)00198-5](https://doi.org/10.1016/S2214-109X(23)00198-5).
 
 
 # **Technical Competencies** 🛠️
