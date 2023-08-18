@@ -16,7 +16,11 @@ order: 1
 **B.A. Economics (*with honors*), Pepperdine University, Los Angeles (2015-2019)**
   * Thesis: "Effects of Foreign Exchange Rates on US-Japan Trade Relations"
 
-# **PROJECTS**
+**Certificate in Dispute Resolution, Pepperdine Law School, Los Angeles (2017-2019)**
+  * Eight credit hours (96 classroom hours) studying conflict management and dispute resolution
+  * Submitted four separate 20+ page reports applying concepts to real-world conflicts
+
+# **PROJECTS** 📦
 **[Detecting COVID-related Fake News with Machine Learning](/projects.html#detecting-covid-fake-news)** \| [Maching Learning (GRAD-24)](https://www.hertie-school.org/en/study/course-catalogue/course/course/machine-learning)
   * Used the [Covid-19 Fake News dataset](https://paperswithcode.com/dataset/covid-19-fake-news-dataset) comprising 10,700 Covid-related social media posts labeled either “real” or “fake” to build a fake news detection algorithm with **Python**
   * Measured the extent to which the fake news detection algorithm degraded over time due to temporal shifts in content
@@ -39,10 +43,13 @@ order: 1
   * Constructed a dataset using [U.S. Census Bureau](https://www.census.gov/foreign-trade/statistics/country/index.html) and [U.S. Federal Reserve](https://fred.stlouisfed.org/series/DEXJPUS) data
   * Conducted Granger causality tests, impulse-response tests, and vector autoregression (VAR) analyses to test hypothesis
 
-# **EXPERIENCE**
-**Junior Data Scientist, CPC Analytics, Berlin (2022-present)**
-  * Working with clients to develop, initiate, and implement new projects in the field of global health – particularly focused on developing a new global data and analysis ecosystem for pandemic preparedness and response
-  * Conducting landscape analyses on policy initiatives in global health, understanding financial flows, and assessing implications of recommendations made by policy actors on an ongoing basis
+# **EXPERIENCE** 💼
+**Junior Data Scientist, CPC Analytics, Berlin (2022-2023)**
+  * Assisted WHO personnel in setting up a global surveillance system and the development of a [web-based Shiny application using R](https://worldhealthorg.shinyapps.io/mpx_global/) to inform both WHO decision-makers and the wider public
+  * Conducted in-depth analyses of the epidemiological characteristics, risk factors, and demographic trends surrounding the 2022-23 mpox (formerly known as monkeypox) outbreak using R and the tidyverse, the outputs from which were incorporated into bi-weekly Acute Events Management presentations, [bi-weekly situational reports](https://www.who.int/emergencies/situation-reports), three quarterly risk assessments, and three quarterly Emergency Committee meetings 
+  * For three months, served as the sole data scientist for WHO’s mpox data warehouse which involved maintaining XML and SQL data pipelines for six WHO Regional Offices, configuring public and private APIs, and creating Excel templates with built-in data validation to facilitate data uploads by end users
+  * Utilised Bayesian statistics and R programming language to generate short-term projections for 27 countries’ respective mpox case counts and reproduction numbers (R~t~) to inform WHO personnel
+  * Contributed to the development of two R packages to assist WHO personnel with performing common data science tasks such as querying WHO servers, cleaning epidemiological data, and generating data visualisations
 
 **Procurement Analyst, U.S.  Space Force, Los Angeles (2019-2021)**
   * Procured supplies and services necessary to support $800M National Security Space Launch Services portfolio
@@ -69,23 +76,46 @@ order: 1
   * Evaluated submissions for the Pepperdine Journal of Communication Research
   * Nominated articles for publication based on academic rigor, grammar, spelling, syntax, and organizational structure
 
-# **Technical Competencies**
-* **Python/Jupyter Notebook**
-* **R**
-* **SQL**
-* **Git/GitHub/Version Control**
-* **Bash/Command Line**
-* **XML**
-* **Web-scraping (HTML/CSS/XML)**
-* **Shiny Apps & Dashboards**
-* **API Requests**
-* **Machine Learning**
-* **Natural Language Processing**
-* **Markdown**
-* **LaTeX**
-* **MS Office**
+# **Publications** 📝
+Laurenson-Schafer H, Sklenovská N, Hoxha A, *Kerr SM*, Ndumbi P, Fitzner J, et al. Description of the first global outbreak of mpox: an analysis of global surveillance data. The Lancet Global Health. **2023 Jul**; 11(7):e1012-e1023. doi:[10.1016/S2214-109X(23)00198-5](https://doi.org/10.1016/S2214-109X(23)00198-5).
 
-# **RELEVANT COURSEWORK**
+
+# **Technical Competencies** 🛠️
+**R**
+  * Passed LinkedIn Skill Assessment for R (Top 5%)
+  * Frequently use R to clean, wrangle, model, and visualize data for projects and papers
+  * Advanced familiarity with tidverse (tidyr, dplyr, ggplot), sf (geocoding), and Shiny packages 
+
+**Python/Jupyter Notebook**
+  * Utilize Python to prepare data, fit machine learning models, and visualize results
+  * Advanced experience with pandas, numpy, sklearn, matplotlib and seaborn packages
+
+**SQL**
+  * Certificate in Using Databases with Python
+  * Experience with creating, retrieving, updating, and deleting database information with SQL 
+  * Used SQL to create a database of web-scraped geo-location data for data visualization project
+
+**Machine Learning**
+  * Developed a ML algorithm capable of validating COVID-19 rapid self-tests using image recognition
+  * Currently implementing a project that combines ML and Natural Language Processing to detect fake social media posts about public health
+
+**Other Coding Skills**
+  * Git/GitHub/Version Control
+  * Command Line/Bash
+  * Shiny Apps & Dashboards
+  * Web-scraping (HTML/CSS/XML)
+  * Natural Language Processing
+  * API Requests
+  * Markdown
+  * LaTeX
+  * Quarto
+
+**MS Office**
+  * Advanced experience with using Excel formulas, functions, and pivot tables 
+  * Frequently format reports, incorporate graphs & charts, and create mock-ups in Word
+  * Routinely deliver presentations, trainings, and briefings using PowerPoint
+
+# **RELEVANT COURSEWORK** 📚
 * **Machine Learning** (GRAD-C24) \| Spring 2022
 * **Math for Data Science** (GRAD-C23) \| Spring 2022
 * **Causal Inference** (GRAD-C22) \| Spring 2022
@@ -93,8 +123,8 @@ order: 1
 * **Data Structures & Algorithms** (GRAD-C9) \| Fall 2021
 * **Applied Econometrics** (ECON 410) \| Spring 2019
 
-# **RECOGNITION**
-* **Merit-based Tuition Waiver**, Hertie School (2021-2023)
+# **RECOGNITION** 🏆
+* **Merit-based Tuition Waiver**, Hertie School (2021-2024)
 * **Contracting Civilian-in-Training of the Year**, U.S. Space Force (2020)
 * **Regents' Scholar Award (Top Academic Scholarship)**, Pepperdine University (2015-2019)
 * **Cum Laude**, Peppperdine University (2019)
@@ -103,7 +133,7 @@ order: 1
 * **Blanche E. Seaver Faculty-Staff Scholarship**, Pepperdine University (2018)
 * **Dean's List**, Pepperdine University (2017)
 
-# **COMMUNITY INVOLVEMENT**
+# **COMMUNITY INVOLVEMENT** 🌱
 * **Data Science Society**, Hertie School (2021-present)
 * **Hertie Pride Network**, Hertie School (2021-present)
 * **Sigma Iota Rho National Honors Society**, Pepperdine University (2017-2019)
@@ -111,7 +141,7 @@ order: 1
 * **Student Government Representative**, Pepperdine University (2016-2017)
 * **Step Forward Program**, Pepperdine University (2015-2017)
 
-# **LANGUAGES**
+# **LANGUAGES** 💬
 
 | English | Spanish | German | French |
 | :----:  | :----:  | :----: | :----: |
