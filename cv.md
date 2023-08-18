@@ -3,7 +3,7 @@ layout: page
 title: CV
 permalink: /cv.html
 ref: cv
-order: 3
+order: 1
 ---
 
 **[Download Resume](assets/pdf/Kerr_Steven_Resume.pdf)** \| **[Download CV](assets/pdf/Kerr_Steven_CV.pdf)**
@@ -113,8 +113,8 @@ order: 3
 
 # **LANGUAGES**
 
-| English | Spanish | French | German |
-| :----: | :----: | :----: | :----: |
-| Native  | B2      | B1     | A2     |
+| English | Spanish | German | French |
+| :----:  | :----:  | :----: | :----: |
+| Native  | B2      | B1     | B1    |
 
 [Go to the Home Page]({{ '/' | absolute_url }})

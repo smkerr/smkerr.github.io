@@ -4,11 +4,6 @@
     {% assign default_refs = site.pages | sort:"order" | map: "ref" %}
     {% assign page_refs = site.header_page_refs | default: default_refs %}
 
-    {% assign sorted_pages = site.pages | sort:"order" %}
-    {% for node in sorted_pages %}
-      <li><a href="{{node.url}}">{{node.title}}</a></li>
-    {% endfor %}
-
     {% if page.layout != 'home' %}
       <a class="site-title" href="{{ '/' | absolute_url }}">{{ site.title | escape }}</a>
     {% endif %}

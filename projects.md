@@ -4,7 +4,7 @@ title: Projects
 tagline: What I've worked on
 permalink: /projects.html
 ref: projects
-order: 1
+order: 2
 ---
 
 # <a id="global-monkeypox-outbreak">[2022-23 Mpox Outbreak: Global Trends Report](https://worldhealthorg.shinyapps.io/mpx_global/)</a>
