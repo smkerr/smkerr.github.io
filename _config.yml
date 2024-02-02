@@ -1,5 +1,5 @@
 title: Steven M. Kerr
-description: MSc Data Science for Public Policy Student
+description: MSc Data Science for Public Policy Candidate
 show_downloads: false
 
 baseurl: # change this to the subpath of your site, e.g. /blog. Leave it empty if you don't need it.
@@ -22,8 +22,8 @@ email:
   username: steven.miles.k@gmail.com
 linkedin:
   username: stevenmileskerr
-twitter:
-  username: st3v3k3rr
+#twitter:
+#  username: st3v3k3rr
 
 plugins:
   - jekyll-target-blank
