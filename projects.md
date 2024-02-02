@@ -67,8 +67,8 @@ Building on my mpox data analytics experience, I collaborated with WHO on a [*La
 
 <div class="my-container">
 
-<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Epidemiological and clinical characteristics, as well as risk factors for hospitalization, of <a href="https://twitter.com/hashtag/mpox?src=hash&amp;ref_src=twsrc%5Etfw">#mpox</a> cases during the 2022-23 multi-country outbreak, from the <a href="https://twitter.com/WHO?ref_src=twsrc%5Etfw">@WHO</a> global surveillance system, published in <a href="https://twitter.com/LancetGH?ref_src=twsrc%5Etfw">@LancetGH</a>.<br>👏 &amp; 🙏to countries for sharing their data. <a href="https://t.co/OcBEA00K00">pic.twitter.com/OcBEA00K00</a></p>&mdash; Ana Hoxha (@AnaHoxhaEpi) <a href="https://twitter.com/AnaHoxhaEpi/status/1671768740323524609?ref_src=twsrc%5Etfw">June 22, 2023</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script
-</div
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Epidemiological and clinical characteristics, as well as risk factors for hospitalization, of <a href="https://twitter.com/hashtag/mpox?src=hash&amp;ref_src=twsrc%5Etfw">#mpox</a> cases during the 2022-23 multi-country outbreak, from the <a href="https://twitter.com/WHO?ref_src=twsrc%5Etfw">@WHO</a> global surveillance system, published in <a href="https://twitter.com/LancetGH?ref_src=twsrc%5Etfw">@LancetGH</a>.<br>👏 &amp; 🙏to countries for sharing their data. <a href="https://t.co/OcBEA00K00">pic.twitter.com/OcBEA00K00</a></p>&mdash; Ana Hoxha (@AnaHoxhaEpi) <a href="https://twitter.com/AnaHoxhaEpi/status/1671768740323524609?ref_src=twsrc%5Etfw">June 22, 2023</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+</div>
 
 
 ***
