@@ -84,9 +84,9 @@ Continuing my work with WHO, I served as co-first author on a [publication in th
 ***
 
 
-# <a id="plotly-workshop">[Tutorial: Interactive Graphics with `plotly`](https://github.com/smkerr/plotly-workshop)</a>
+# <a id="plotly-workshop">[Tutorial: Interactive Graphics with plotly](https://github.com/smkerr/plotly-workshop)</a>
 
-As part of the [**Introduction to Data Science (I2DS) Tools for Data Science Workshop**](https://intro-to-data-science-21-workshop.github.io/) hosted by the Hertie School on 4 November 2021, I partnered with [Julian Kath](https://github.com/juka19/) to present on **Interactive Graphics with `plotly`*. High-quality data visualization is essential for effective communication of findings. `plotly` offers a straightforward way to build captivating graphics that will impress your audience. The goals of this tutorial are to:
+As part of the [Introduction to Data Science (I2DS) Tools for Data Science Workshop](https://intro-to-data-science-21-workshop.github.io/) hosted by the Hertie School on 4 November 2021, I partnered with [Julian Kath](https://github.com/juka19/) to present on Interactive Graphics with `plotly`. High-quality data visualization is essential for effective communication of findings. `plotly` offers a straightforward way to build captivating graphics that will impress your audience. The goals of this tutorial are to:
 
 1. Equip participants with conceptual knowledge about the `plotly` package and data visualization workflow
 2. Demonstrate key capabilities of the package
