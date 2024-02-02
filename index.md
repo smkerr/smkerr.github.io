@@ -3,25 +3,10 @@
 # See: https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 
 title: Steven M. Kerr
-description: "MSc Data Scientist for Public Policy Student"
+description: "MSc Data Scientist for Public Policy Candidate"
 layout: home
 ---
 
-# About :wave:
-I'm Steve, a self-identified data enthusiast with a passion for promoting the public good. I'm currently pursuing my [MSc. in Data Science for Public Policy](https://www.hertie-school.org/en/mds) at the [Hertie School](https://www.hertie-school.org/en/) in Berlin. During my studies, I've had the opportunity to contribute to data science projects focusing on global health topics at [CPC Analytics](https://www.cpc-analytics.com).
+I’m Steve, a 2nd-year [MSc Data Science for Public Policy](https://www.hertie-school.org/en/mds) student at the [Hertie School](https://www.hertie-school.org/en/) in Berlin, Germany and a Student Researcher at the [Mercator Research Institute on Global Commons and Climate Change (MCC)](https://www.mcc-berlin.net/en/index.html) where I work with the Applied Sustainability Science Working Group. Previously, I contributed to data science projects at [CPC Analytics](https://www.cpc-analytics.com/) and served as a teaching assistant for the Hertie School’s [*Introduction to Data Science*](https://www.hertie-school.org/en/study/course-catalogue/course/course/introduction-to-data-science) course. 
 
-# My interests :mag:
-I have a broad range of policy interests including:
-* global health
-* development aid
-* socioeconomic inequality
-
-# My projects :construction_worker:
-* <a href="/projects.html#detecting-covid-fake-news">Detecting COVID-related Fake News with Machine Learning</a>
-* <a href="/projects.html#validating-covid-self-tests">Validating COVID Self Tests with Image Recognition</a>
-* <a href="/projects.html#uk-covid-dashboard">UK COVID Dashboard Disaggregated by Age Group</a>
-
-# Contact me :coffee:
-* Email: [steven.miles.k@gmail.com](mailto:steven.miles.k@gmail.com)
-* LinkedIn: [Steven Kerr](https://www.linkedin.com/in/stevenmileskerr/)
-* GitHub: [smkerr](https://github.com/smkerr)
+My work has primarily focused on global health, climate change, and the provision of public services in the digital age. I have worked with a wide array of methods include Bayesian modeling, geospatial analysis, machine learning, natural language processing, and deep learning. You can learn more about my projects [here](/projects.html).

@@ -4,12 +4,10 @@ title: Now
 tagline: What I'm working on
 permalink: /now.html
 ref: now
-order: 3
+order: 2
 ---
 
-Following the successful finish to the first year of my master's program, I've started working as a Junior Data Scientist for [CPC Analytics](cpc-analytics.com), a consultancy firm based in Berlin which is focused on global health topics. In my role, I translate global health data into actionable insights for policymakers. I primarily support our partners at the [WHO Hub for Pandemic and Epidemic Intelligence](https://pandemichub.who.int/)'s with projects related to global health emergencies including the ongoing Monkeypox outbreak.
-
-Aside from work, I'm taking advantage of summer in Berlin while it lasts. The city truly is a different place when you add in a bit of warmth and sunlight. :sunny:
+As I enter the final semester of my master's program, I've begun working as a Student Researcher for the [Mercator Research Institute on Global Commons and Climate Change (MCC)](https://www.mcc-berlin.net/en/index.html) in Berlin where I contribute to data science projects investigating the intersection between climate change and human health as a member of the Applied Sustainability Science Working Group. Beyond this, I'll be dedicating the majority of my time towards my remaining coursework and completing my [master's thesis](https://github.com/smkerr/Thesis_WorkInProgress). With graduation in June, my studies are quickly coming to a close. I plan to take full advantage of the remaining time to further hone my skills and prepare myself for the German job market following graduation. I'm excited to see what 2024 has in store. 🌱
 
 \~ Steve
 
