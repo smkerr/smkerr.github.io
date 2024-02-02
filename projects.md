@@ -76,7 +76,7 @@ Building on my mpox data analytics experience, I collaborated with WHO on a [*La
 
 # <a id="mpox-eid-paper">[Mpox in Children and Adolescents during Multicountry Outbreak, 2022–2023](https://doi.org/10.3201/eid2910.230516)</a>
 
-Continuing my work with WHO, I served as co-first author on a [publication in the U.S. CDC's [*Emerging Infectious Diseases*] Journal](https://doi.org/10.3201/eid2910.230516) in which our team examined mpox cases among children and adolescents during the 2022-23 mpox outbreak. While the outbreak predominantly affected adult men, 1.3% of reported cases were in children and adolescents <18 years of age. Analysis of global surveillance data showed one hospital intensive care unit admission and zero deaths in that age group. Transmission routes and clinical manifestations varied across age subgroups.
+Continuing my work with WHO, I served as co-first author on a [publication in the U.S. CDC's *Emerging Infectious Diseases* Journal](https://doi.org/10.3201/eid2910.230516) in which our team examined mpox cases among children and adolescents during the 2022-23 mpox outbreak. While the outbreak predominantly affected adult men, 1.3% of reported cases were in children and adolescents <18 years of age. Analysis of global surveillance data showed one hospital intensive care unit admission and zero deaths in that age group. Transmission routes and clinical manifestations varied across age subgroups.
 
 ![Mpox in Children and Adolescents during Multicountry Outbreak](assets/img/mpox-eid-paper.png "Mpox in Children and Adolescents, 2022-23"){: .center-image }
 
