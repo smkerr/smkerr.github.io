@@ -13,7 +13,7 @@ As a final project for my [Deep Learning (GRAD-E1394)](https://www.hertie-school
 
 As a demonstration, we develop a RAG+C chatbot to answer questions about the U.S. Federal Acquisition Regulation (FAR), the rule book for public procurement in the United States. We show you how to load and process FAR documents, store them in a database, and build your very own RAG+C pipeline. Lastly, this tutorial shows how to deploy models as a Conversation User Interface (CUI) (think chatbot) on a web server. You can access our "FAR-Chat" hosted on Hugging Face Spaces [here](https://huggingface.co/spaces/smkerr/rag-chat).
 
-:octocat: [See the code](https://github.com/smkerr/tutorial-rag-c)
+➡️ [See the code](https://github.com/smkerr/tutorial-rag-c)
 
 ![RAG+C Chatbot](assets/img/ragc-chatbot.png "RAG+C Chatbot"){: .center-image}
 
@@ -27,7 +27,7 @@ As part of the [Applied Network Analysis (GRAD-E1426)](https://www.hertie-school
 
 To give a specific example, the network graph below depicts Slovakia's public procurement market in 2014. It features issuers and winners as gray and white nodes, respectively. The connections between these nodes are colored based on the single bidding rate - a metric linked to government corruption. Red links represent a higher-than-average single bidding rate, suggesting potential corruption risks, while blue links indicate a rate below average. Notably, several clusters of red links shown in the graph signal heightened corruption risk in those contracts.
 
-:octocat: [See the code](https://github.com/smkerr/EU-procurement)
+➡️ [See the code](https://github.com/smkerr/EU-procurement)
 
 ![EU Procurement](assets/img/eu-procurement-network.png "EU Procurement"){: .center-image}
 
@@ -35,11 +35,11 @@ To give a specific example, the network graph below depicts Slovakia's public pr
 ***
 
 
-# <a id="news-israel-gaza">[News coverage of 2023 Israel-Hamas War)](https://github.com/smkerr/news-israel-gaza)</a>
+# <a id="news-israel-gaza">[News coverage of 2023 Israel-Hamas War](https://github.com/smkerr/news-israel-gaza)</a>
 
 Following Hamas's surprise October 7 attack on Israel and the subsequent Israeli military campaign in the Gaza Strip, the media's response quickly became polarized. I collaborated with my fellow classmates [Kai Foerster](https://github.com/kaifoerster), [Danial Riaz](https://github.com/danialriaz), and [Max Eckert](https://github.com/m-b-e) to investigate (1) how news coverage of these events evolved over time and (2) the extent to which new coverage varied by news outlet. To answer these questions, we sourced 4,000+ articles from various news outlets including the New York Times, Al Jazeera, and Die Welt which were published in the weeks immediately preceding and following the October 7 attack. We employ topic modeling to identify topics associated with Israel, Hamas, and Palestine as well as sentiment analysis to measure the extent to which the emotional valence of news coverage varied by group.
 
-:octocat: [See the code](https://github.com/smkerr/news-israel-gaza)
+➡️ [See the code](https://github.com/smkerr/news-israel-gaza)
 
 ![Sentiment analysis of news coverage of Israel-Hamas War](assets/img/news-israel-gaza-sentiment.png "Sentiment analysis of news coverage of Israel-Hamas War"){: .center-image}
 
@@ -94,7 +94,7 @@ As part of the [Introduction to Data Science (I2DS) Tools for Data Science Works
 
 While the interactive part of the session was held live at the Hertie School, the online portion can be viewed [here](https://vimeo.com/641454552/3724dfb535).
 
-:octocat: [See the code](https://github.com/smkerr/plotly-workshop)
+➡️ [See the code](https://github.com/smkerr/plotly-workshop)
 
 ![Interactive Graphics with `plotly`](assets/img/plotly-workshop.png "Interactive Graphics with `plotly`"){: .center-image }
 
@@ -108,7 +108,7 @@ Alarmed by the amount of COVID-related fake news circulating through social medi
 
 Here's the [blog post](assets/html/ML-blog-post.html) we prepared for the Hertie Data Science Lab detailing our project.
 
-:octocat: [See the code](https://github.com/smkerr/COVID-fake-news-detection)
+➡️ [See the code](https://github.com/smkerr/COVID-fake-news-detection)
 
 ![Detecting COVID-related Fake News](assets/img/fake-news-scatterplot.png "Detecting COVID-related Fake News"){: .center-image }
 
@@ -120,7 +120,7 @@ Here's the [blog post](assets/html/ML-blog-post.html) we prepared for the Hertie
 
 Together with fellow master's students [Kai Foerster](https://github.com/kaifoerster) and [Dominik Cramer](https://github.com/DominikCramer), I created a dashboard to track COVID case rates in England with the option to disaggregate by age group. We extracted our data using the API for [the official UK government website for data and insights on COVID](https://coronavirus.data.gov.uk). To build our map, we downloaded boundary data for all 309 local authority districts from [the Office of National Statistics' web portal](https://geoportal.statistics.gov.uk/datasets/local-authority-districts-december-2019-boundaries-uk-bfc-1/explore). As seen below, the user can observe COVID case rates for selected age groups during different time periods.
 
-:octocat: [See the code](https://github.com/intro-to-data-science-21/data-project-covid_dashboard_uk)
+➡️ [See the code](https://github.com/intro-to-data-science-21/data-project-covid_dashboard_uk)
 
 
 ![UK COVID Dashboard](assets/img/uk-covid-dashboard.png "UK COVID Dashboard")
@@ -133,7 +133,7 @@ Together with fellow master's students [Kai Foerster](https://github.com/kaifoer
 
 With the understanding that COVID rapid tests will continue to play a key role in the post-pandemic world, I once again found myself working alongside [Kai Foerster](https://github.com/kaifoerster) and [Dominik Cramer](https://github.com/DominikCramer) to develop a program capable of validating COVID self tests using image recognition. We used data from the [MNIST database of handwritten digits](http://yann.lecun.com/exdb/mnist/), a collection of 70,000 examples, to train our Machine Learning algorithm to recognize handwritten serial numbers and COVID test results.
 
-[See the code](https://github.com/smkerr/COVID-test-validation) :octocat: 
+➡️ [See the code](https://github.com/smkerr/COVID-test-validation)
 
 ![Validating COVID Test Results](assets/img/validating-covid-test-results.png "Validating COVID Test Results"){: .center-image }
 
