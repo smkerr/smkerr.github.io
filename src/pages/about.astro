@@ -1,0 +1,54 @@
+---
+import BaseLayout from '@/layouts/BaseLayout.astro';
+import Button from '@/components/Button.astro';
+import { SITE } from '@/site.config';
+
+const tools = ['Python', 'R', 'SQL', 'Bayesian modeling', 'NLP', 'Machine learning'];
+---
+
+<BaseLayout title="About" description={`A bit about ${SITE.name} and how they work.`}>
+  <section class="mx-auto max-w-3xl px-6 pt-16 pb-24 sm:pt-24">
+    <p class="text-ink-soft mb-6 font-mono text-xs tracking-[0.2em] uppercase">About</p>
+
+    <h1 class="font-display text-ink max-w-xl text-3xl font-medium sm:text-4xl">
+      {SITE.role}.
+    </h1>
+
+    <div class="prose prose-sm sm:prose-base mt-8 max-w-xl">
+      <p>
+        I'm Steve, a data scientist with a background in public policy. My work has focused on
+        global health, climate change, and the provision of public services, using methods
+        ranging from Bayesian modeling and geospatial analysis to NLP and deep learning.
+      </p>
+      <p>
+        I hold an MSc in Data Science for Public Policy from the Hertie School in Berlin.
+        Before that, I worked as a procurement analyst with the U.S. Space Force, negotiating
+        deals with rocket launch providers, after studying Economics at Pepperdine University.
+      </p>
+      <p>
+        Most recently, I've worked as a data scientist at CPC Analytics on global health
+        surveillance for the WHO Pandemic Hub, and as a researcher at the Mercator Research
+        Institute on Global Commons and Climate Change (MCC), studying the intersection of
+        climate change and human health.
+      </p>
+    </div>
+
+    <div class="mt-10">
+      <p class="text-ink-soft mb-3 font-mono text-xs tracking-[0.2em] uppercase">Tools</p>
+      <ul class="flex flex-wrap gap-2">
+        {
+          tools.map((tool) => (
+            <li class="border-line text-ink-soft rounded-full border px-3 py-1 font-mono text-xs">
+              {tool}
+            </li>
+          ))
+        }
+      </ul>
+    </div>
+
+    <div class="mt-10 flex flex-wrap gap-3">
+      <Button href={`mailto:${SITE.email}`}>Get in touch</Button>
+      <Button href="/cv.pdf" variant="ghost">Download CV</Button>
+    </div>
+  </section>
+</BaseLayout>
