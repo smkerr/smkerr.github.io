@@ -13,15 +13,22 @@ import { SITE } from '@/site.config';
       The fastest way to reach me is email. I'm also around on GitHub and LinkedIn.
     </p>
 
-    <div class="border-line bg-surface mt-8 max-w-xl rounded-lg border p-6">
+    <a
+      href={`mailto:${SITE.email}?subject=${encodeURIComponent('Hello from your website')}`}
+      class="border-line bg-surface hover:border-signal group mt-8 block max-w-xl rounded-lg border p-6 transition-colors"
+    >
       <p class="text-ink-soft font-mono text-xs tracking-[0.2em] uppercase">Email</p>
-      <a
-        href={`mailto:${SITE.email}`}
-        class="text-ink hover:text-signal mt-2 block text-lg font-medium break-all"
+      <span
+        class="text-ink group-hover:text-signal mt-2 block text-lg font-medium break-all transition-colors"
       >
         {SITE.email}
-      </a>
-    </div>
+      </span>
+      <span
+        class="text-ink-soft group-hover:text-signal mt-3 block font-mono text-xs transition-colors"
+      >
+        Click to write an email →
+      </span>
+    </a>
 
     <ul class="mt-8 flex flex-wrap gap-4">
       {
