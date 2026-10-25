@@ -1,23 +1,51 @@
 ---
 import BaseLayout from '@/layouts/BaseLayout.astro';
+import Button from '@/components/Button.astro';
 import { SITE } from '@/site.config';
+
+const tools = ['Python', 'R', 'SQL', 'Bayesian modeling', 'NLP', 'Machine learning'];
 ---
 
 <BaseLayout title={SITE.name}>
-  <article class="prose prose-sm sm:prose-base max-w-2xl">
-    <h1>{SITE.name}</h1>
+  <section>
+    <h1 class="font-display text-ink text-4xl font-medium sm:text-5xl">{SITE.name}</h1>
+    <p class="text-ink-soft mt-3">{SITE.role}, based in Berlin.</p>
 
-    <p>
-      I'm a data scientist working across global health and climate policy, based in Berlin. I hold
-      an MSc in Data Science for Public Policy from the Hertie School, and I've worked with the WHO
-      Pandemic Hub, the Mercator Research Institute on Global Commons and Climate Change, and CPC
-      Analytics, using methods ranging from Bayesian modeling to NLP and network analysis.
-    </p>
+    <div class="prose prose-sm sm:prose-base mt-8 max-w-2xl">
+      <p>
+        I'm a data scientist with a background in public policy. My work has focused on global
+        health, climate change, and the provision of public services, using methods ranging from
+        Bayesian modeling and geospatial analysis to NLP and deep learning.
+      </p>
+      <p>
+        I hold an MSc in Data Science for Public Policy from the Hertie School in Berlin. Before
+        that, I worked as a procurement analyst with the U.S. Space Force, negotiating deals with
+        rocket launch providers, after studying Economics at Pepperdine University.
+      </p>
+      <p>
+        Most recently, I've worked as a data scientist at CPC Analytics on global health
+        surveillance for the WHO Pandemic Hub, and as a researcher at the Mercator Research
+        Institute on Global Commons and Climate Change (MCC), studying the intersection of climate
+        change and human health. You can see what I've worked on on the <a href="/work">work</a> page.
+      </p>
+    </div>
 
-    <p>
-      You can see what I've worked on on the <a href="/work">work</a> page, or read more{' '}
-      <a href="/about">about</a> me. I'm reachable at{' '}
-      <a href={`mailto:${SITE.email}`}>{SITE.email}</a>.
-    </p>
-  </article>
+    <div class="mt-10">
+      <p class="text-ink-soft mb-3 font-mono text-xs tracking-[0.2em] uppercase">Tools</p>
+      <ul class="flex flex-wrap gap-2">
+        {
+          tools.map((tool) => (
+            <li class="border-line text-ink-soft rounded-full border px-3 py-1 font-mono text-xs">
+              {tool}
+            </li>
+          ))
+        }
+      </ul>
+    </div>
+
+    <div class="mt-10 flex flex-wrap gap-3">
+      <Button href="/contact">Get in touch</Button>
+      <Button href="/cv.pdf" variant="ghost">Download CV</Button>
+    </div>
+  </section>
 </BaseLayout>
