@@ -18,7 +18,7 @@ const currentPath = Astro.url.pathname;
             href={link.href}
             aria-current={isActive ? 'page' : undefined}
             class:list={[
-              'py-0.5 transition-colors duration-200 ease-out',
+              'py-0.5 font-mono text-xs tracking-wide uppercase transition-colors duration-200 ease-out',
               isActive
                 ? 'decoration-ink-soft/50 hover:decoration-ink-soft text-ink! font-medium underline underline-offset-2'
                 : 'text-ink-soft hover:text-ink',
