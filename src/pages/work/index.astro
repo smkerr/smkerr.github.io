@@ -14,7 +14,7 @@ const allWork = (await getCollection('work', ({ data }) => !data.draft)).sort(
   description="Selected projects in product design and frontend engineering."
 >
   <section>
-    <SectionHeading eyebrow="All work" count={allWork.length} />
+    <SectionHeading eyebrow="All work" />
     <div>
       {allWork.map((entry) => <WorkRow entry={entry} />)}
     </div>
