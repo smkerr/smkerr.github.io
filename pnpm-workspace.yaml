@@ -1,2 +1,5 @@
 allowBuilds:
   esbuild: false
+
+overrides:
+  '@babel/parser': 7.29.8
