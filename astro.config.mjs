@@ -25,14 +25,6 @@ export default defineConfig({
   fonts: [
     {
       provider: fontProviders.google(),
-      name: 'Fraunces',
-      cssVariable: '--ff-display',
-      weights: ['400', '500', '600'],
-      styles: ['normal', 'italic'],
-      subsets: ['latin'],
-    },
-    {
-      provider: fontProviders.google(),
       name: 'Inter',
       cssVariable: '--ff-body',
       weights: ['400', '500', '600'],

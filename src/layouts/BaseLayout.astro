@@ -20,10 +20,16 @@ const { title, description = SITE.description, image = '/og-image.png' } = Astro
     <BaseHead title={title} description={description} image={image} />
   </head>
   <body id="top" class="bg-paper text-ink">
-    <Header />
-    <main>
-      <slot />
-    </main>
-    <Footer />
+    <div
+      class="mx-auto flex min-h-svh w-full max-w-3xl flex-col px-4 sm:min-h-screen md:grid md:grid-cols-[1fr_4fr] md:gap-8 md:px-8"
+    >
+      <Header />
+      <div class="flex min-w-0 grow flex-col py-8 md:mt-8">
+        <main class="grow">
+          <slot />
+        </main>
+        <Footer />
+      </div>
+    </div>
   </body>
 </html>

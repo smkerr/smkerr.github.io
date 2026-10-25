@@ -13,23 +13,23 @@
 :root {
   color-scheme: light;
 
-  --paper: #f7f6f3; /* page background */
-  --ink: #15161b; /* primary text */
-  --ink-soft: #5b5d66; /* secondary text */
-  --signal: #3d3dff; /* the one accent color */
-  --line: #e4e2dc; /* borders, rules */
-  --surface: #efeeea; /* cards, raised panels */
+  --paper: #fffcf0; /* page background, Flexoki-style warm paper */
+  --ink: #100f0f; /* primary text */
+  --ink-soft: #6f6e69; /* secondary text */
+  --signal: #bc5215; /* the one accent color */
+  --line: #e6e4d9; /* borders, rules */
+  --surface: #f2f0e5; /* cards, raised panels */
 }
 
 .dark {
   color-scheme: dark;
 
-  --paper: #101114;
-  --ink: #f2f1ed;
-  --ink-soft: #9a9ca6;
-  --signal: #7b7bff;
-  --line: #26272c;
-  --surface: #1a1b20;
+  --paper: #100f0f;
+  --ink: #fffcf0;
+  --ink-soft: #b7b5ac;
+  --signal: #da702c;
+  --line: #282726;
+  --surface: #1c1b1a;
 }
 
 /* `inline` keeps these resolving against the live --paper/--ink/etc custom
@@ -45,8 +45,10 @@
 
   /* Astro's Fonts API exposes the loaded families on --ff-* (see
      astro.config.mjs). These map them to font-display / font-body /
-     font-mono utility classes. */
-  --font-display: var(--ff-display);
+     font-mono utility classes. font-display reuses the body typeface
+     (Inter) rather than a separate display face, for a single quieter
+     typographic voice across the site. */
+  --font-display: var(--ff-body);
   --font-body: var(--ff-body);
   --font-mono: var(--ff-mono);
 }
@@ -102,9 +104,6 @@
   --tw-prose-quotes: var(--color-ink);
   --tw-prose-quote-borders: var(--color-signal);
   --tw-prose-code: var(--color-ink);
-}
-.prose :where(h2, h3, h4) {
-  font-family: var(--font-display);
 }
 .prose :where(a) {
   text-decoration-thickness: 1px;

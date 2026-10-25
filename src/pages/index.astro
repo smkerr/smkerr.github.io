@@ -1,28 +1,23 @@
 ---
 import BaseLayout from '@/layouts/BaseLayout.astro';
-import Button from '@/components/Button.astro';
 import { SITE } from '@/site.config';
 ---
 
 <BaseLayout title={SITE.name}>
-  <section class="mx-auto flex max-w-3xl flex-col justify-center px-6 py-24 sm:py-32">
-    <p class="text-ink-soft mb-6 inline-flex items-center gap-2 font-mono text-xs">
-      <span class="bg-signal h-1.5 w-1.5 rounded-full" aria-hidden="true"></span>
-      {SITE.status}
+  <article class="prose prose-sm sm:prose-base max-w-none">
+    <h1>{SITE.name}</h1>
+
+    <p>
+      I'm a data scientist working across global health and climate policy, based in Berlin. I
+      hold an MSc in Data Science for Public Policy from the Hertie School, and I've worked with
+      the WHO Pandemic Hub, the Mercator Research Institute on Global Commons and Climate Change,
+      and CPC Analytics, using methods ranging from Bayesian modeling to NLP and network analysis.
     </p>
 
-    <h1 class="font-display text-ink max-w-2xl text-4xl leading-[1.1] font-medium sm:text-5xl">
-      {SITE.tagline}
-    </h1>
-
-    <p class="text-ink-soft mt-6 max-w-md">
-      {SITE.role}.
+    <p>
+      You can see what I've worked on on the <a href="/work">work</a> page, or read more{' '}
+      <a href="/about">about</a> me. I'm reachable at{' '}
+      <a href={`mailto:${SITE.email}`}>{SITE.email}</a>.
     </p>
-
-    <div class="mt-8 flex flex-wrap items-center gap-3">
-      <Button href="/work" variant="solid">View the work →</Button>
-      <Button href="/about" variant="ghost">About</Button>
-      <Button href={`mailto:${SITE.email}`} variant="ghost">Get in touch</Button>
-    </div>
-  </section>
+  </article>
 </BaseLayout>
