@@ -1,6 +1,6 @@
 ---
 import ThemeToggle from '@/components/ThemeToggle.astro';
-import { SITE, NAV_LINKS } from '@/site.config';
+import { NAV_LINKS } from '@/site.config';
 
 const currentPath = Astro.url.pathname;
 ---
@@ -29,9 +29,6 @@ const currentPath = Astro.url.pathname;
         );
       })
     }
-    <a href={`mailto:${SITE.email}`} class="text-ink-soft hover:text-ink py-0.5 transition-colors duration-200 ease-out">
-      Contact
-    </a>
     <ThemeToggle />
   </nav>
 </aside>
