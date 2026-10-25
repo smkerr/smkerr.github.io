@@ -1,34 +1,37 @@
 ---
 import ThemeToggle from '@/components/ThemeToggle.astro';
-import { NAV_LINKS } from '@/site.config';
+import { SITE, NAV_LINKS } from '@/site.config';
 
 const currentPath = Astro.url.pathname;
 ---
 
-<aside>
-  <nav
-    class="border-line/50 flex flex-wrap items-center gap-x-6 gap-y-1 border-b py-4 md:mt-16 md:h-fit md:flex-col md:items-end md:border-r md:border-b-0 md:py-0 md:pr-8"
-    aria-label="Primary"
+<header class="border-line bg-paper/90 sticky top-0 z-40 border-b backdrop-blur">
+  <div
+    class="mx-auto flex max-w-5xl flex-wrap items-center justify-between gap-x-6 gap-y-2 px-4 py-4 md:px-8"
   >
-    {
-      NAV_LINKS.map((link) => {
-        const isActive = currentPath === link.href || currentPath.startsWith(`${link.href}/`);
-        return (
-          <a
-            href={link.href}
-            aria-current={isActive ? 'page' : undefined}
-            class:list={[
-              'py-0.5 font-mono text-xs tracking-wide uppercase transition-colors duration-200 ease-out',
-              isActive
-                ? 'decoration-ink-soft/50 hover:decoration-ink-soft text-ink! font-medium underline underline-offset-2'
-                : 'text-ink-soft hover:text-ink',
-            ]}
-          >
-            {link.label}
-          </a>
-        );
-      })
-    }
-    <ThemeToggle />
-  </nav>
-</aside>
+    <a href="/" class="font-display text-ink text-lg font-medium">
+      {SITE.name}
+    </a>
+
+    <nav class="flex items-center gap-5" aria-label="Primary">
+      {
+        NAV_LINKS.map((link) => {
+          const isActive = currentPath === link.href || currentPath.startsWith(`${link.href}/`);
+          return (
+            <a
+              href={link.href}
+              aria-current={isActive ? 'page' : undefined}
+              class:list={[
+                'font-mono text-xs tracking-wide uppercase transition-colors',
+                isActive ? 'text-signal' : 'text-ink-soft hover:text-ink',
+              ]}
+            >
+              {link.label}
+            </a>
+          );
+        })
+      }
+      <ThemeToggle />
+    </nav>
+  </div>
+</header>
