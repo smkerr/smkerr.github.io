@@ -1,6 +1,16 @@
 @import 'tailwindcss';
 @plugin '@tailwindcss/typography';
 
+/* Self-hosted fonts (no network fetch at dev/build time, unlike Astro's
+   live Fonts API, which pulls font metadata from Google at every
+   dev/build start and stalls the whole process if that network call is
+   slow or blocked). */
+@import '@fontsource/inter/400.css';
+@import '@fontsource/inter/500.css';
+@import '@fontsource/inter/600.css';
+@import '@fontsource/space-mono/400.css';
+@import '@fontsource/space-mono/700.css';
+
 /* Make the `dark:` variant respond to a `.dark` class instead of OS
    preference, so the toggle in <ThemeToggle /> can override the system. */
 @custom-variant dark (&:where(.dark, .dark *));
@@ -43,14 +53,11 @@
   --color-line: var(--line);
   --color-surface: var(--surface);
 
-  /* Astro's Fonts API exposes the loaded families on --ff-* (see
-     astro.config.mjs). These map them to font-display / font-body /
-     font-mono utility classes. font-display reuses the body typeface
-     (Inter) rather than a separate display face, for a single quieter
-     typographic voice across the site. */
-  --font-display: var(--ff-body);
-  --font-body: var(--ff-body);
-  --font-mono: var(--ff-mono);
+  /* font-display reuses the body typeface (Inter) rather than a separate
+     display face, for a single quieter typographic voice across the site. */
+  --font-display: 'Inter', ui-sans-serif, system-ui, sans-serif;
+  --font-body: 'Inter', ui-sans-serif, system-ui, sans-serif;
+  --font-mono: 'Space Mono', ui-monospace, monospace;
 }
 
 @layer base {

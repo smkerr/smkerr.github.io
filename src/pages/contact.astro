@@ -7,9 +7,7 @@ import { SITE } from '@/site.config';
   <section>
     <p class="text-ink-soft mb-6 font-mono text-xs tracking-[0.2em] uppercase">Contact</p>
 
-    <h1 class="font-display text-ink max-w-xl text-3xl font-medium sm:text-4xl">
-      Get in touch.
-    </h1>
+    <h1 class="font-display text-ink max-w-xl text-3xl font-medium sm:text-4xl">Get in touch.</h1>
 
     <p class="text-ink-soft mt-6 max-w-xl">
       The fastest way to reach me is email. I'm also around on GitHub and LinkedIn.
@@ -17,7 +15,10 @@ import { SITE } from '@/site.config';
 
     <div class="border-line bg-surface mt-8 max-w-xl rounded-lg border p-6">
       <p class="text-ink-soft font-mono text-xs tracking-[0.2em] uppercase">Email</p>
-      <a href={`mailto:${SITE.email}`} class="text-ink hover:text-signal mt-2 block text-lg font-medium break-all">
+      <a
+        href={`mailto:${SITE.email}`}
+        class="text-ink hover:text-signal mt-2 block text-lg font-medium break-all"
+      >
         {SITE.email}
       </a>
     </div>

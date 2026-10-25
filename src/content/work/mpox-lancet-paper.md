@@ -9,4 +9,4 @@ featured: true
 draft: false
 ---
 
-Building on my mpox surveillance work, I collaborated with WHO on a publication in *The Lancet Global Health* describing the epidemiological characteristics, demographic trends, and risk factors surrounding the 2022–23 mpox outbreak, drawing on the most extensive dataset of mpox cases available at the time.
+Building on my mpox surveillance work, I collaborated with WHO on a publication in _The Lancet Global Health_ describing the epidemiological characteristics, demographic trends, and risk factors surrounding the 2022–23 mpox outbreak, drawing on the most extensive dataset of mpox cases available at the time.
