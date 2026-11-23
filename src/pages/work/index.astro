@@ -1,0 +1,26 @@
+---
+import { getCollection } from 'astro:content';
+import BaseLayout from '@/layouts/BaseLayout.astro';
+import WorkRow from '@/components/WorkRow.astro';
+
+const allWork = (await getCollection('work', ({ data }) => !data.draft)).sort(
+  (a, b) => b.data.date.valueOf() - a.data.date.valueOf(),
+);
+---
+
+<BaseLayout
+  title="Work"
+  description="Selected projects in global health, public finance and data science for public policy."
+>
+  <section>
+    <p class="text-ink-soft mb-6 font-mono text-xs tracking-[0.2em] uppercase">Work</p>
+
+    <h1 class="font-display text-ink max-w-xl text-3xl font-medium sm:text-4xl">
+      What I've worked on.
+    </h1>
+
+    <div class="mt-8">
+      {allWork.map((entry) => <WorkRow entry={entry} />)}
+    </div>
+  </section>
+</BaseLayout>

@@ -3,15 +3,14 @@ description: MSc Data Science for Public Policy Candidate
 show_downloads: false
 
 baseurl: # change this to the subpath of your site, e.g. /blog. Leave it empty if you don't need it.
-url: "https://smkerr.github.io" # base hostname & protocol for the site
-
+url: 'https://smkerr.github.io' # base hostname & protocol for the site
 
 google_analytics: 298049889
 
 # cayman-blog date format
 # refer to http://shopify.github.io/liquid/filters/date/ if you want to customize this
 cayman-blog:
-  date_format: "%d %b %Y"
+  date_format: '%d %b %Y'
 
 theme: # leave it empty
 
@@ -30,6 +29,6 @@ plugins:
   - jemoji
 
 target-blank:
-    rel: nofollow
+  rel: nofollow
 
 header_page_refs: ['about', 'projects', 'now', 'cv']
