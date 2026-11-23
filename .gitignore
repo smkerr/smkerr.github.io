@@ -22,3 +22,6 @@ cv/
 
 # Archive
 archive/
+
+# Local Claude Code preview config
+.claude/

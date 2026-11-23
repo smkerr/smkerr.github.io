@@ -11,6 +11,7 @@
     "url": "https://github.com/smkerr/smkerr.github.io"
   },
   "homepage": "https://smkerr.github.io",
+  "packageManager": "pnpm@12.15.0",
   "engines": {
     "node": ">=22.0.0"
   },
