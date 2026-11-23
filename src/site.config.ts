@@ -6,7 +6,7 @@ export const SITE = {
   email: 'steven.miles.k@gmail.com',
   tagline: 'Data science for evidence-based public policy.',
   description:
-    'Portfolio of Steven Kerr, a data scientist working across global health and climate policy, with an MSc in Data Science for Public Policy from the Hertie School.',
+    'Portfolio of Steven Kerr, a data scientist and co-lead of the data science team at CPC Analytics, working on global health and development finance for the WHO and NGOs.',
   status: 'Based in Berlin, Germany',
   social: [
     { label: 'GitHub', href: 'https://github.com/smkerr' },
@@ -18,7 +18,6 @@ export const SITE = {
 export const NAV_LINKS = [
   { label: 'Home', href: '/' },
   { label: 'Work', href: '/work' },
-  { label: 'About', href: '/about' },
-  { label: 'CV', href: '/cv.pdf' },
+  { label: 'CV', href: '/Steven_Kerr_CV.pdf' },
   { label: 'Contact', href: '/contact' },
 ] as const;

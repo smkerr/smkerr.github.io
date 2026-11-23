@@ -3,7 +3,7 @@ title: News Coverage of the 2023 Israel-Hamas War
 summary: A topic modeling and sentiment analysis of 4,000+ news articles examining how coverage of the war evolved and varied by outlet.
 role: Independent research project
 date: 2023-11-10
-tags: [NLP, Topic Modeling, Sentiment Analysis, Python]
+tags: [NLP, Topic Modeling, Sentiment Analysis, R]
 repo: https://github.com/smkerr/news-israel-gaza
 featured: false
 draft: false

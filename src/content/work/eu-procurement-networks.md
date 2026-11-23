@@ -3,7 +3,7 @@ title: EU Procurement Networks
 summary: A network analysis of public procurement markets across 26 European countries, examining how single-bidding rates relate to perceived government corruption.
 role: Applied Network Analysis course project
 date: 2023-12-01
-tags: [Network Analysis, Public Procurement, R]
+tags: [Network Analysis, Public Procurement, Python]
 repo: https://github.com/smkerr/EU-procurement
 featured: true
 draft: false

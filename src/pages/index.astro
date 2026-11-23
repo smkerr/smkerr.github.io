@@ -1,22 +1,45 @@
 ---
 import BaseLayout from '@/layouts/BaseLayout.astro';
 import { SITE } from '@/site.config';
+import profPic from '@/assets/images/profile.jpg';
 ---
 
 <BaseLayout title={SITE.name}>
-  <article class="prose prose-sm sm:prose-base max-w-none">
-    <h1>{SITE.name}</h1>
+  <article class="prose prose-sm sm:prose-base max-w-xl">
+    <div class="not-prose mb-8 flex items-center gap-5 sm:gap-6">
+      <img
+        src={profPic.src}
+        alt={`Photo of ${SITE.name}`}
+        width="128"
+        height="128"
+        class="border-line size-20 shrink-0 rounded-full border object-cover sm:size-28"
+      />
+      <h1 class="font-display text-ink text-3xl font-medium sm:text-4xl">{SITE.name}</h1>
+    </div>
 
     <p>
-      I'm a data scientist working across global health and climate policy, based in Berlin. I hold
-      an MSc in Data Science for Public Policy from the Hertie School, and I've worked with the WHO
-      Pandemic Hub, the Mercator Research Institute on Global Commons and Climate Change, and CPC
-      Analytics, using methods ranging from Bayesian modeling to NLP and network analysis.
+      Data scientist focused on bringing data science to public policy, driven by the belief that
+      better data and better analysis lead to better decisions. As co-lead of the data science team
+      at CPC Analytics, I work with clients at the World Health Organization and international NGOs
+      to put this into practice. I help decision-makers act on sound evidence, whether by tracking
+      an outbreak as it unfolds, tracing how development finance is allocated, or synthesizing the
+      latest research on the questions they face.
     </p>
 
     <p>
-      You can see what I've worked on on the <a href="/work">work</a> page, or read more{' '}
-      <a href="/about">about</a> me. I'm reachable at{' '}
+      I work across the full data pipeline, primarily in Python and R, from conception to
+      decision-ready product. My work has appeared in{' '}
+      <em>The Lancet Global Health</em> and <em>Emerging Infectious Diseases</em>.
+    </p>
+
+    <p>
+      I'm originally from the San Francisco Bay Area and now based in Berlin. Outside of work, I
+      enjoy playing volleyball with my local club. Passing the German C1 exam in 2026 was a
+      milestone I'm particularly proud of.
+    </p>
+
+    <p>
+      Have a look at what I've worked on <a href="/work">here</a>, or send me a message at{' '}
       <a href={`mailto:${SITE.email}`}>{SITE.email}</a>.
     </p>
   </article>

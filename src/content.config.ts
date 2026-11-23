@@ -16,6 +16,8 @@ const work = defineCollection({
       tags: z.array(z.string()).default([]),
       cover: image().optional(),
       url: z.url().optional(),
+      // Text for the main link button on the detail page, e.g. "Read the paper".
+      linkLabel: z.string().optional(),
       repo: z.url().optional(),
       featured: z.boolean().default(false),
       draft: z.boolean().default(false),

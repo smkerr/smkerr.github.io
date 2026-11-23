@@ -11,6 +11,9 @@ export default defineConfig({
 
   integrations: [sitemap()],
 
+  // The About page was merged into the home page; keep old links working.
+  redirects: { '/about': '/' },
+
   // Prefetches internal links on hover/viewport entry for near-instant navigation.
   prefetch: true,
 
