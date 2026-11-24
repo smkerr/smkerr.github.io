@@ -5,7 +5,7 @@ const dateStyles: Record<DateStyle, Intl.DateTimeFormatOptions> = {
   long: { dateStyle: 'long' },
   medium: { dateStyle: 'medium' },
   short: { dateStyle: 'short' },
-  compact: { year: 'numeric', month: '2-digit' },
+  compact: { year: 'numeric' },
 };
 
 export function formatDate(

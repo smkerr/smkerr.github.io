@@ -11,6 +11,7 @@ export const SITE = {
   social: [
     { label: 'GitHub', href: 'https://github.com/smkerr' },
     { label: 'LinkedIn', href: 'https://www.linkedin.com/in/stevenmileskerr' },
+    { label: 'ORCID', href: 'https://orcid.org/0000-0001-8240-7899' },
   ],
   locale: 'en',
 } as const;
