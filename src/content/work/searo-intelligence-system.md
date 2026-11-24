@@ -4,6 +4,7 @@ summary: Requirements and design for a system that turns open-source epidemic si
 role: Technical lead, CPC Analytics (for WHO SEARO)
 date: 2025-09-01
 endDate: 2026-03-01
+order: 6
 tags: [Requirements, System Design, Public Health Intelligence, LLMs]
 featured: false
 draft: false

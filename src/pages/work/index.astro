@@ -3,11 +3,12 @@ import { getCollection } from 'astro:content';
 import BaseLayout from '@/layouts/BaseLayout.astro';
 import WorkRow from '@/components/WorkRow.astro';
 
-// Newest first, by when the work ended (or its date, if it has no end date).
-const endOf = (d: { date: Date; endDate?: Date }) => (d.endDate ?? d.date).valueOf();
-const allWork = (await getCollection('work', ({ data }) => !data.draft)).sort(
-  (a, b) => endOf(b.data) - endOf(a.data),
-);
+// Entries with a fixed `order` come first, in that order. The rest follow, newest start date first.
+const rank = (d: { order?: number }) => d.order ?? Number.POSITIVE_INFINITY;
+const allWork = (await getCollection('work', ({ data }) => !data.draft)).sort((a, b) => {
+  if (rank(a.data) !== rank(b.data)) return rank(a.data) < rank(b.data) ? -1 : 1;
+  return b.data.date.valueOf() - a.data.date.valueOf();
+});
 ---
 
 <BaseLayout

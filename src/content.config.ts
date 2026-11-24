@@ -14,8 +14,8 @@ const work = defineCollection({
       role: z.string(),
       // Start of the work; its year is shown in the list and it sets the order within a year.
       date: z.coerce.date(),
-      // When the work ended, for projects spanning more than one year. The list sorts by
-      // this date (or by `date` when there is no end date), newest first.
+      // When the work ended, for projects spanning more than one year. It sets the end of
+      // the range shown in the list (e.g. 2025-26) and breaks ties in the order.
       endDate: z.coerce.date().optional(),
       tags: z.array(z.string()).default([]),
       cover: image().optional(),
@@ -25,6 +25,9 @@ const work = defineCollection({
       repo: z.url().optional(),
       // Extra buttons on the detail page, e.g. a project's about page.
       links: z.array(z.object({ label: z.string(), href: z.url() })).default([]),
+      // Optional fixed position at the top of the list (1 is first). Entries without one
+      // follow, sorted by start date.
+      order: z.number().int().optional(),
       featured: z.boolean().default(false),
       draft: z.boolean().default(false),
     }),

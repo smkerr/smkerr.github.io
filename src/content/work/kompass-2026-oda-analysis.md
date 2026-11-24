@@ -3,6 +3,7 @@ title: German Development Aid Analysis for Kompass 2026
 summary: Led the data analysis of German ODA for the 2026 Welthungerhilfe and terre des hommes Kompass report.
 role: Analysis lead, CPC Analytics (for Welthungerhilfe)
 date: 2026-05-01
+order: 2
 tags: [R, Development Finance, ODA, Policy Analysis]
 url: https://www.welthungerhilfe.de/unsere-arbeit/themen/globale-gerechtigkeit/kompass
 linkLabel: Read the report

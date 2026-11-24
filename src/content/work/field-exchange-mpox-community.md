@@ -4,6 +4,7 @@ summary: An IOA Field Exchange article on the WHO Hub's mpox analytics community
 role: Co-author, IOA Field Exchange
 date: 2024-09-01
 endDate: 2025-10-01
+order: 10
 tags: [Publication, Global Health, Community of Practice]
 url: https://www.integratedoutbreakanalytics.net/resources/mpox-analytics-community-and-collaborative-outbreak-analysis
 linkLabel: Read the article

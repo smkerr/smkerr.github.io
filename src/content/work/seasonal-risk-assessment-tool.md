@@ -4,6 +4,7 @@ summary: A flexible, reusable Excel and R Shiny tool, published by WHO, that sco
 role: Lead developer, CPC Analytics (for WHO Hub)
 date: 2025-12-01
 endDate: 2026-11-01
+order: 5
 tags: [R, Shiny, Risk Assessment, Global Health]
 url: https://www.who.int/publications/m/item/seasonal-risk-assessment-tool-for-acute-emergencies-(2026)
 linkLabel: View the tool
