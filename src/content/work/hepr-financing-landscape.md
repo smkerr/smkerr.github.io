@@ -2,8 +2,8 @@
 title: Health Emergency Financing Landscape Analysis for WHO
 summary: An R pipeline estimating development finance for health emergency preparedness and response across five core components, with projections to 2028.
 role: Data Scientist, CPC Analytics (for WHO)
-date: 2025-06-01
-order: 3
+date: 2026-01-01
+order: 2
 tags: [R, Development Finance, Global Health, Policy Analysis]
 featured: false
 draft: false

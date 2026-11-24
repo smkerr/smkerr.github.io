@@ -4,7 +4,7 @@ summary: A Python pipeline that extracts structured, quote-verified evidence fro
 role: Designer and developer, CPC Analytics (for WHO Hub)
 date: 2025-06-01
 endDate: 2026-06-01
-order: 1
+order: 3
 tags: [LLMs, Python, Evidence Synthesis, Global Health]
 url: https://who-collaboratory.github.io/ebola-resources/evidence-synthesis/
 linkLabel: Read the synthesis
