@@ -1,5 +1,5 @@
 ---
-title: "Tutorial: Retrieval Augmented Generation with Citation (RAG+C)"
+title: 'Tutorial: Retrieval Augmented Generation with Citation (RAG+C)'
 summary: A tutorial and demo chatbot showing how to ground LLM answers in source documents, using the U.S. Federal Acquisition Regulation as the test case.
 role: Deep Learning course project
 date: 2024-01-15

@@ -10,6 +10,6 @@ featured: true
 draft: false
 ---
 
-I helped build and maintain the WHO's 2022-23 Mpox (Monkeypox) Outbreak: Global Trends Report, a public-facing Shiny application used to inform both WHO decision-makers and the wider public during the outbreak.
+I helped build and maintain the WHO's [2022-23 Mpox (Monkeypox) Outbreak: Global Trends Report](https://worldhealthorg.shinyapps.io/mpx_global/), a public-facing Shiny application used to inform both WHO decision-makers and the wider public during the outbreak.
 
 At its peak, the surveillance system I helped maintain tracked over 86,000 cases and 96 related deaths worldwide, with the dashboard used in WHO's biweekly situational reporting.

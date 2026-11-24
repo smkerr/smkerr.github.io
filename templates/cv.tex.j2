@@ -1,0 +1,147 @@
+((= Jinja template for the CV. Block tags use ((* *)), variables use triple parentheses.
+    Every value arrives already converted to LaTeX by build.py. =))
+\documentclass[((( style.paper )))]{article}
+\usepackage[((( style.paper ))), top=1.5cm, bottom=1.7cm, left=((( style.margin ))), right=((( style.margin ))), footskip=0.8cm]{geometry}
+
+% ---------------------------------------------------------------- fonts
+% Bundled in ../../fonts so the PDF looks the same on any machine.
+\usepackage{fontspec}
+\defaultfontfeatures{Ligatures=TeX, Path=../../fonts/}
+\setmainfont{((( font.body[0] )))}[
+  ItalicFont = ((( font.body[1] ))), BoldFont = ((( font.body[2] ))), BoldItalicFont = ((( font.body[3] )))]
+\newfontfamily\namefont{((( font.name )))}
+\newfontfamily\headfont{((( font.heading )))}
+\newfontfamily\iconsolid{fa-solid-900.ttf}
+\newfontfamily\iconbrands{fa-brands-400.ttf}
+
+% ---------------------------------------------------------------- colours
+\usepackage{xcolor}
+\definecolor{accent}{HTML}{((( style.accent )))}
+\definecolor{ink}{HTML}{15161B}
+\definecolor{muted}{HTML}{5B5D66}
+\definecolor{rulecol}{HTML}{D5D7DC}
+\definecolor{tbdcol}{HTML}{C62828}
+\color{ink}
+
+% ---------------------------------------------------------------- layout
+\usepackage{enumitem}
+\usepackage{tabularx}
+\usepackage{fancyhdr}
+\usepackage{lastpage}
+\usepackage[hidelinks, pdfusetitle]{hyperref}
+\hypersetup{pdftitle={((( name_plain ))), ((( doc_label )))}, pdfauthor={((( name_plain )))}}
+
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{0pt}
+% Never split a bullet or paragraph across pages.
+\interlinepenalty=10000
+\clubpenalty=10000
+\widowpenalty=10000
+\linespread{1.06}
+\raggedright
+% Base text size (set per preset or per variant via style.font_size).
+\makeatletter
+\renewcommand{\normalsize}{\@setfontsize\normalsize{((( style.font_size )))}{((( (style.font_size * 1.2) | round(1) )))}}
+\makeatother
+
+\setlist[itemize]{leftmargin=1.05em, label={((* if bullet *))((( bullet )))((* else *))\color{muted}\small\textbullet((* endif *))}, labelsep=0.45em,
+  itemsep=1.6pt, parsep=0pt, topsep=2pt, partopsep=0pt, beginpenalty=10000}
+
+\pagestyle{fancy}
+\fancyhf{}
+\renewcommand{\headrulewidth}{0pt}
+\fancyfoot[L]{\footnotesize\color{muted}((( name ))) · ((( doc_label ))) · ((( date_label )))}
+\fancyfoot[R]{\footnotesize\color{muted}Page \thepage\ of \pageref*{LastPage}}
+((* if draft *))
+\fancyhead[R]{\footnotesize\bfseries\color{tbdcol}DRAFT: placeholders shown in red}
+((* endif *))
+
+% ---------------------------------------------------------------- macros
+\newcommand{\tbd}[1]{{\color{tbdcol}#1}}
+% Contact icon: \cvicon{solid|brands}{hex codepoint}
+\newcommand{\cvicon}[2]{{\color{accent}\csname icon#1\endcsname\symbol{"#2}}\hspace{0.35em}}
+\newcommand{\cvsection}[1]{%
+  \par\addvspace{11pt}%
+  {\headfont\color{accent}\addfontfeatures{LetterSpace=7}\MakeUppercase{#1}}\par\nobreak
+  \vspace{2pt}\nobreak{\color{rulecol}\hrule height 0.5pt}\nobreak\vspace{5pt}\nobreak}
+% Entry heading: bold title (wraps if long), bold dates on the right, optional
+% italic location underneath. Boxed so a page never breaks inside it.
+\newcommand{\cventry}[3]{%
+  \par\noindent\begin{minipage}[t]{\linewidth}%
+  \begin{tabularx}{\linewidth}{@{}X@{\hspace{1em}}r@{}}{\bfseries #1} & {\bfseries #2}\end{tabularx}%
+  \if\relax\detokenize{#3}\relax\else\par{\itshape\color{muted}#3}\fi
+  \end{minipage}\par\nobreak\vspace{1pt}\nobreak}
+\newcommand{\cvgroup}[1]{\par\vspace{4pt}{\bfseries\small\color{muted}#1}\par\nobreak\vspace{0.5pt}\nobreak}
+
+\begin{document}
+\normalsize
+
+% ---------------------------------------------------------------- header
+\begin{center}
+  {\namefont\fontsize{25}{29}\selectfont\color{accent}\addfontfeatures{LetterSpace=6}\MakeUppercase{((( name )))}}\par
+  \vspace{5pt}
+  {\small
+  ((* for line in contact_lines *))
+  ((* for c in line *))
+  \mbox{((* if c.url *))\href{((( c.url )))}{((* if c.icon_font *))\cvicon{((( c.icon_font )))}{((( c.icon_code )))}((* endif *))((( c.text )))}((* else *))((* if c.icon_font *))\cvicon{((( c.icon_font )))}{((( c.icon_code )))}((* endif *))((( c.text )))((* endif *))}((* if not loop.last *))\hspace{1.1em}((* endif *))
+  ((* endfor *))
+  ((* if not loop.last *))\\[1pt]((* endif *))
+  ((* endfor *))
+  }\par
+\end{center}
+\vspace{-4pt}
+
+((* for s in sections *))
+\cvsection{((( s.title )))}
+((* if s.kind == "text" *))
+((( s.text )))\par
+
+((* elif s.kind == "entries" *))
+((* for e in s.entries *))
+\cventry{((( e.title )))((* if e.org *)), ((( e.org )))((* endif *))}{((( e.dates )))}{((( e.location )))}
+((* if e.intro *))
+\vspace{2pt}((( e.intro )))\par
+((* endif *))
+((* for g in e.groups *))
+((* if g.heading *))
+\cvgroup{((( g.heading )))}
+((* endif *))
+\begin{itemize}
+((* for b in g.bullets *))
+  \item ((( b )))
+((* endfor *))
+\end{itemize}
+((* endfor *))
+((* if not loop.last *))\vspace{7pt}((* endif *))
+
+((* endfor *))
+((* elif s.kind == "groups" *))
+((* for g in s.groups *))
+((* if g.heading *))
+\cvgroup{((( g.heading )))}
+((* endif *))
+\begin{itemize}
+((* for it in g.entries_list *))
+  \item ((( it )))
+((* endfor *))
+\end{itemize}
+((* endfor *))
+
+((* elif s.kind == "items" *))
+\begin{itemize}
+((* for it in s.entries_list *))
+  \item ((( it )))
+((* endfor *))
+\end{itemize}
+
+((* elif s.kind == "rows" *))
+\begin{tabularx}{\linewidth}{@{}>{\bfseries}p{3.1cm}>{\raggedright\arraybackslash}X@{}}
+((* for row in s.rows *))
+((( row.label ))) & ((( row.text )))\\[2.5pt]
+((* endfor *))
+\end{tabularx}\par
+
+((* endif *))
+((* endfor *))
+
+\end{document}

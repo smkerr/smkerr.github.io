@@ -11,6 +11,6 @@ featured: true
 draft: false
 ---
 
-I led development of the WHO Seasonal Risk Assessment Tool, published by WHO in November 2026. It turns the method behind Ukraine's winter and summer risk assessments into a generic tool that other emergency settings can reuse. I first worked on that method in 2022-23, when I helped identify data sources and develop a structured way to score seasonal risk.
+I led development of the WHO Seasonal Risk Assessment Tool, published by WHO in November 2026. It turns the method behind Ukraine's winter and summer risk assessments into a generic tool that other emergency settings can reuse. I first worked on that method in 2022-23, when I helped identify data sources and develop a structured way to score seasonal risk for the [winter risk assessment for Ukraine](https://www.who.int/europe/publications/m/item/risk-assessment-for-winter-in-ukraine-december-2022).
 
 For the tool, I built the Excel workbook and the R Shiny app from scratch, reworking earlier Ukraine-specific code. I wrote step-by-step user documentation, presented the tool to internal WHO teams, and released the source code on GitHub. I coordinated the WHO Collaboratory, the WHO Country Office in Ukraine and the WHO Hub, and took the tool through WHO headquarters clearance. A manuscript describing the methodology and tool is currently in submission.
