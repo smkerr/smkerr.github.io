@@ -2,7 +2,8 @@
 title: WHO Mpox Global Trends Report
 summary: A public Shiny dashboard tracking the 2022-23 mpox outbreak, built and maintained for the WHO Pandemic Hub.
 role: Junior Data Scientist, CPC Analytics (for WHO)
-date: 2023-02-21
+date: 2022-06-01
+endDate: 2023-05-01
 tags: [R, Shiny, Global Health, Public Dashboards]
 url: https://worldhealthorg.shinyapps.io/mpx_global/
 linkLabel: Open the dashboard

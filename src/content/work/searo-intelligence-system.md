@@ -3,6 +3,7 @@ title: Public Health Intelligence System for WHO SEARO (2025-26)
 summary: Requirements and design for a system that turns open-source epidemic signals into daily briefings, weekly updates and bulletins, now in use.
 role: Technical lead, CPC Analytics (for WHO SEARO)
 date: 2025-09-01
+endDate: 2026-03-01
 tags: [Requirements, System Design, Public Health Intelligence, LLMs]
 featured: false
 draft: false

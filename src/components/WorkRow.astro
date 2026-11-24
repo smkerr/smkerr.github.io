@@ -7,9 +7,14 @@ interface Props {
 }
 
 const { entry } = Astro.props;
-const { title, summary, date } = entry.data;
+const { title, summary, date, endDate } = entry.data;
 
-const stamp = formatDate(date, 'compact');
+const startYear = date.getUTCFullYear();
+const endYear = endDate?.getUTCFullYear();
+const stamp =
+  endYear && endYear !== startYear
+    ? `${startYear}-${String(endYear).slice(-2)}`
+    : formatDate(date, 'compact');
 ---
 
 <a

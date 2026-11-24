@@ -3,8 +3,10 @@ import { getCollection } from 'astro:content';
 import BaseLayout from '@/layouts/BaseLayout.astro';
 import WorkRow from '@/components/WorkRow.astro';
 
+// Newest first, by when the work ended (or its date, if it has no end date).
+const endOf = (d: { date: Date; endDate?: Date }) => (d.endDate ?? d.date).valueOf();
 const allWork = (await getCollection('work', ({ data }) => !data.draft)).sort(
-  (a, b) => b.data.date.valueOf() - a.data.date.valueOf(),
+  (a, b) => endOf(b.data) - endOf(a.data),
 );
 ---
 

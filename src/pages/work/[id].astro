@@ -16,7 +16,7 @@ interface Props {
 }
 
 const { entry } = Astro.props;
-const { title, summary, url, linkLabel, repo } = entry.data;
+const { title, summary, url, linkLabel, repo, links = [] } = entry.data;
 const { Content } = await render(entry);
 ---
 
@@ -48,6 +48,13 @@ const { Content } = await render(entry);
             View code →
           </Button>
         )
+      }
+      {
+        links.map((link) => (
+          <Button href={link.href} variant="ghost">
+            {link.label} →
+          </Button>
+        ))
       }
     </div>
   </article>
