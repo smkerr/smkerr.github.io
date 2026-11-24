@@ -7,7 +7,7 @@ interface Props {
 }
 
 const { entry } = Astro.props;
-const { title, summary, date, tags } = entry.data;
+const { title, summary, date } = entry.data;
 
 const stamp = formatDate(date, 'compact');
 ---
@@ -27,15 +27,10 @@ const stamp = formatDate(date, 'compact');
     <span class="text-ink-soft hidden truncate text-sm sm:block">{summary}</span>
   </span>
 
-  <span class="flex items-center gap-4">
-    <span class="text-ink-soft hidden font-mono text-[11px] md:block">
-      {tags.slice(0, 2).join(' · ')}
-    </span>
-    <span
-      aria-hidden="true"
-      class="text-ink-soft group-hover:text-signal transition-all group-hover:translate-x-1"
-    >
-      →
-    </span>
+  <span
+    aria-hidden="true"
+    class="text-ink-soft group-hover:text-signal transition-all group-hover:translate-x-1"
+  >
+    →
   </span>
 </a>
